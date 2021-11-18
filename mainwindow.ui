@@ -19,8 +19,8 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>661</width>
-      <height>661</height>
+      <width>677</width>
+      <height>677</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
@@ -32,6 +32,12 @@
      </property>
      <item row="3" column="13">
       <widget class="QTextEdit" name="box3x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -42,11 +48,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="13">
       <widget class="QTextEdit" name="box2x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -57,11 +72,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="3">
       <widget class="QTextEdit" name="box8x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -72,11 +96,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="9">
       <widget class="QTextEdit" name="box1x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -87,11 +120,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="10">
       <widget class="QTextEdit" name="box12x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -102,11 +144,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="1">
       <widget class="QTextEdit" name="box14x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -117,11 +168,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="11">
       <widget class="QTextEdit" name="box9x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -132,11 +192,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="2">
       <widget class="QTextEdit" name="box13x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -147,11 +216,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="8">
       <widget class="QTextEdit" name="box13x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -162,11 +240,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="14">
       <widget class="QTextEdit" name="box0x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -177,11 +264,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="3">
       <widget class="QTextEdit" name="box1x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -192,11 +288,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="7">
       <widget class="QTextEdit" name="box12x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -207,11 +312,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="1">
       <widget class="QTextEdit" name="box3x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -222,11 +336,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="8">
       <widget class="QTextEdit" name="box0x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -237,11 +360,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="5">
       <widget class="QTextEdit" name="box10x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -252,11 +384,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="15">
       <widget class="QTextEdit" name="box0x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -267,11 +408,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="1">
       <widget class="QTextEdit" name="box13x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -282,11 +432,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="2">
       <widget class="QTextEdit" name="box0x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -297,11 +456,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="3">
       <widget class="QTextEdit" name="box11x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -312,11 +480,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="14">
       <widget class="QTextEdit" name="box10x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -327,11 +504,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="5">
       <widget class="QTextEdit" name="box9x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -342,11 +528,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="8">
       <widget class="QTextEdit" name="box1x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -357,11 +552,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="9">
       <widget class="QTextEdit" name="box4x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -372,11 +576,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="1">
       <widget class="QTextEdit" name="box7x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -387,11 +600,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="1">
       <widget class="QTextEdit" name="box11x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -402,11 +624,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="6">
       <widget class="QTextEdit" name="box2x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -417,11 +648,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="10">
       <widget class="QTextEdit" name="box0x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -432,11 +672,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="13">
       <widget class="QTextEdit" name="box0x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -447,11 +696,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="15">
       <widget class="QTextEdit" name="box11x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -462,11 +720,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="3">
       <widget class="QTextEdit" name="box2x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -477,11 +744,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="12">
       <widget class="QTextEdit" name="box12x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -492,11 +768,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="1">
       <widget class="QTextEdit" name="box8x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -507,11 +792,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="10">
       <widget class="QTextEdit" name="box14x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -522,11 +816,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="7">
       <widget class="QTextEdit" name="box0x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -537,11 +840,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="2">
       <widget class="QTextEdit" name="box2x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -552,11 +864,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="6">
       <widget class="QTextEdit" name="box0x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -567,11 +888,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="6">
       <widget class="QTextEdit" name="box5x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -582,11 +912,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="13">
       <widget class="QTextEdit" name="box8x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -597,11 +936,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="14">
       <widget class="QTextEdit" name="box5x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -612,11 +960,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="11">
       <widget class="QTextEdit" name="box14x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -627,11 +984,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="7">
       <widget class="QTextEdit" name="box8x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -642,11 +1008,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="7">
       <widget class="QTextEdit" name="box3x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -657,11 +1032,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="10">
       <widget class="QTextEdit" name="box3x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -672,11 +1056,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="9">
       <widget class="QTextEdit" name="box12x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -687,11 +1080,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="10">
       <widget class="QTextEdit" name="box13x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -702,11 +1104,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="6">
       <widget class="QTextEdit" name="box11x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -717,11 +1128,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="4">
       <widget class="QTextEdit" name="box5x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -732,11 +1152,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="6">
       <widget class="QTextEdit" name="box1x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -747,11 +1176,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="6">
       <widget class="QTextEdit" name="box12x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -762,11 +1200,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="4">
       <widget class="QTextEdit" name="box0x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -777,11 +1224,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="5">
       <widget class="QTextEdit" name="box3x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -792,11 +1248,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="13">
       <widget class="QTextEdit" name="box12x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -807,11 +1272,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="14">
       <widget class="QTextEdit" name="box12x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -822,11 +1296,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="12">
       <widget class="QTextEdit" name="box7x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -837,11 +1320,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="8">
       <widget class="QTextEdit" name="box8x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -852,11 +1344,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="15">
       <widget class="QTextEdit" name="box3x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -867,11 +1368,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="3">
       <widget class="QTextEdit" name="box5x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -882,11 +1392,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="2">
       <widget class="QTextEdit" name="box12x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -897,11 +1416,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="9">
       <widget class="QTextEdit" name="box0x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -912,11 +1440,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="11">
       <widget class="QTextEdit" name="box7x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -927,11 +1464,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="5">
       <widget class="QTextEdit" name="box1x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -942,11 +1488,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="9">
       <widget class="QTextEdit" name="box11x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -957,11 +1512,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="8">
       <widget class="QTextEdit" name="box10x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -972,11 +1536,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="14">
       <widget class="QTextEdit" name="box3x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -987,11 +1560,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="6">
       <widget class="QTextEdit" name="box10x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1002,11 +1584,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="11">
       <widget class="QTextEdit" name="box3x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1017,11 +1608,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="15">
       <widget class="QTextEdit" name="box12x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1032,11 +1632,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="3">
       <widget class="QTextEdit" name="box3x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1047,11 +1656,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="12">
       <widget class="QTextEdit" name="box9x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1062,11 +1680,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="11">
       <widget class="QTextEdit" name="box12x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1077,11 +1704,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="4">
       <widget class="QTextEdit" name="box13x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1092,11 +1728,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="4">
       <widget class="QTextEdit" name="box10x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1107,11 +1752,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="5">
       <widget class="QTextEdit" name="box11x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1122,11 +1776,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="8">
       <widget class="QTextEdit" name="box7x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1137,11 +1800,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="11">
       <widget class="QTextEdit" name="box5x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1152,11 +1824,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="5">
       <widget class="QTextEdit" name="box5x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1167,11 +1848,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="8">
       <widget class="QTextEdit" name="box11x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1182,11 +1872,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="15">
       <widget class="QTextEdit" name="box6x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1197,11 +1896,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="2">
       <widget class="QTextEdit" name="box11x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1212,11 +1920,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="14">
       <widget class="QTextEdit" name="box6x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1227,11 +1944,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="4">
       <widget class="QTextEdit" name="box4x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1242,11 +1968,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="2">
       <widget class="QTextEdit" name="box14x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1257,11 +1992,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="1">
       <widget class="QTextEdit" name="box6x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1272,11 +2016,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="15">
       <widget class="QTextEdit" name="box8x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1287,11 +2040,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="7">
       <widget class="QTextEdit" name="box10x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1302,11 +2064,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="3">
       <widget class="QTextEdit" name="box0x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1317,11 +2088,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="15">
       <widget class="QTextEdit" name="box10x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1332,11 +2112,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="7">
       <widget class="QTextEdit" name="box7x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1347,11 +2136,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="11">
       <widget class="QTextEdit" name="box13x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1362,11 +2160,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="6">
       <widget class="QTextEdit" name="box4x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1377,11 +2184,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="5">
       <widget class="QTextEdit" name="box7x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1392,11 +2208,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="1">
       <widget class="QTextEdit" name="box5x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1407,11 +2232,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="9">
       <widget class="QTextEdit" name="box13x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1422,11 +2256,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="3">
       <widget class="QTextEdit" name="box14x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1437,11 +2280,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="7">
       <widget class="QTextEdit" name="box9x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1452,11 +2304,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="3">
       <widget class="QTextEdit" name="box10x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1467,11 +2328,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
       <widget class="QTextEdit" name="box1x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1482,11 +2352,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="9">
       <widget class="QTextEdit" name="box7x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1497,11 +2376,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="8">
       <widget class="QTextEdit" name="box12x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1512,11 +2400,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="14">
       <widget class="QTextEdit" name="box2x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1527,11 +2424,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="15">
       <widget class="QTextEdit" name="box5x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1542,11 +2448,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="7">
       <widget class="QTextEdit" name="box6x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1557,11 +2472,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="12">
       <widget class="QTextEdit" name="box1x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1572,11 +2496,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="4">
       <widget class="QTextEdit" name="box6x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1587,11 +2520,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="10">
       <widget class="QTextEdit" name="box1x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1602,11 +2544,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="9">
       <widget class="QTextEdit" name="box8x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1617,11 +2568,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="12">
       <widget class="QTextEdit" name="box4x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1632,11 +2592,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="12">
       <widget class="QTextEdit" name="box14x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1647,11 +2616,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="5">
       <widget class="QTextEdit" name="box6x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1662,11 +2640,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="3">
       <widget class="QTextEdit" name="box6x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1677,11 +2664,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="15">
       <widget class="QTextEdit" name="box1x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1692,11 +2688,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="8">
       <widget class="QTextEdit" name="box3x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1707,11 +2712,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="12">
       <widget class="QTextEdit" name="box11x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1722,11 +2736,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="6">
       <widget class="QTextEdit" name="box6x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1737,11 +2760,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="1">
       <widget class="QTextEdit" name="box0x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1752,11 +2784,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="3">
       <widget class="QTextEdit" name="box12x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1767,11 +2808,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="7">
       <widget class="QTextEdit" name="box14x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1782,11 +2832,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="14">
       <widget class="QTextEdit" name="box9x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1797,11 +2856,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="4">
       <widget class="QTextEdit" name="box12x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1812,11 +2880,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="9">
       <widget class="QTextEdit" name="box2x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1827,11 +2904,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="10">
       <widget class="QTextEdit" name="box6x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1842,11 +2928,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="14">
       <widget class="QTextEdit" name="box7x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1857,11 +2952,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="13">
       <widget class="QTextEdit" name="box14x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1872,11 +2976,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="4">
       <widget class="QTextEdit" name="box9x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1887,11 +3000,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="6">
       <widget class="QTextEdit" name="box9x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1902,11 +3024,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="13">
       <widget class="QTextEdit" name="box7x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1917,11 +3048,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="12">
       <widget class="QTextEdit" name="box6x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1932,11 +3072,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="13">
       <widget class="QTextEdit" name="box1x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1947,11 +3096,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="11">
       <widget class="QTextEdit" name="box2x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1962,11 +3120,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="4">
       <widget class="QTextEdit" name="box3x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1977,11 +3144,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="2">
       <widget class="QTextEdit" name="box10x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -1992,11 +3168,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="2">
       <widget class="QTextEdit" name="box8x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2007,11 +3192,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="11">
       <widget class="QTextEdit" name="box1x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2022,11 +3216,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="12">
       <widget class="QTextEdit" name="box0x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2037,11 +3240,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="8">
       <widget class="QTextEdit" name="box5x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2052,11 +3264,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="14">
       <widget class="QTextEdit" name="box11x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2067,11 +3288,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="13">
       <widget class="QTextEdit" name="box5x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2082,11 +3312,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="11">
       <widget class="QTextEdit" name="box11x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2097,11 +3336,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="9">
       <widget class="QTextEdit" name="box9x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2112,11 +3360,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="10">
       <widget class="QTextEdit" name="box8x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2127,11 +3384,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="2">
       <widget class="QTextEdit" name="box5x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2142,11 +3408,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="8">
       <widget class="QTextEdit" name="box9x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2157,11 +3432,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="5">
       <widget class="QTextEdit" name="box2x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2172,11 +3456,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="7">
       <widget class="QTextEdit" name="box1x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2187,11 +3480,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="15">
       <widget class="QTextEdit" name="box13x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2202,11 +3504,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="15">
       <widget class="QTextEdit" name="box2x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2217,11 +3528,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="12">
       <widget class="QTextEdit" name="box5x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2232,11 +3552,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="4">
       <widget class="QTextEdit" name="box14x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2247,11 +3576,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="3">
       <widget class="QTextEdit" name="box9x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2262,11 +3600,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="10">
       <widget class="QTextEdit" name="box4x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2277,11 +3624,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="5">
       <widget class="QTextEdit" name="box14x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2292,11 +3648,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="11">
       <widget class="QTextEdit" name="box10x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2307,11 +3672,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="3">
       <widget class="QTextEdit" name="box13x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2322,11 +3696,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="7">
       <widget class="QTextEdit" name="box2x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2337,11 +3720,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="7">
       <widget class="QTextEdit" name="box13x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2352,11 +3744,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="12">
       <widget class="QTextEdit" name="box8x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2367,11 +3768,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="10">
       <widget class="QTextEdit" name="box11x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2382,11 +3792,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="11">
       <widget class="QTextEdit" name="box0x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2397,11 +3816,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="1">
       <widget class="QTextEdit" name="box10x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2412,11 +3840,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="4">
       <widget class="QTextEdit" name="box8x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2427,11 +3864,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="2">
       <widget class="QTextEdit" name="box6x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2442,11 +3888,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="3">
       <widget class="QTextEdit" name="box4x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2457,11 +3912,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="5">
       <widget class="QTextEdit" name="box13x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2472,11 +3936,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="5">
       <widget class="QTextEdit" name="box0x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2487,11 +3960,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="12">
       <widget class="QTextEdit" name="box13x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2502,11 +3984,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="11">
       <widget class="QTextEdit" name="box6x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2517,11 +4008,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="14">
       <widget class="QTextEdit" name="box8x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2532,11 +4032,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="5">
       <widget class="QTextEdit" name="box8x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2547,11 +4056,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="3">
       <widget class="QTextEdit" name="box7x2">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2562,11 +4080,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="8">
       <widget class="QTextEdit" name="box4x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2577,11 +4104,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="1">
       <widget class="QTextEdit" name="box4x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2592,11 +4128,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="15">
       <widget class="QTextEdit" name="box4x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2607,11 +4152,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="13">
       <widget class="QTextEdit" name="box10x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2622,11 +4176,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="15">
       <widget class="QTextEdit" name="box7x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2637,11 +4200,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="7">
       <widget class="QTextEdit" name="box4x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2652,11 +4224,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="1">
       <widget class="QTextEdit" name="box9x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2667,11 +4248,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="9">
       <widget class="QTextEdit" name="box10x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2682,11 +4272,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="8">
       <widget class="QTextEdit" name="box14x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2697,11 +4296,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="10">
       <widget class="QTextEdit" name="box5x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2712,11 +4320,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="14">
       <widget class="QTextEdit" name="box14x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2727,11 +4344,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="4">
       <widget class="QTextEdit" name="box1x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2742,11 +4368,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="5">
       <widget class="QTextEdit" name="box12x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2757,11 +4392,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="6">
       <widget class="QTextEdit" name="box8x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2772,11 +4416,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="12">
       <widget class="QTextEdit" name="box3x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2787,11 +4440,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="10">
       <widget class="QTextEdit" name="box9x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2802,11 +4464,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="9">
       <widget class="QTextEdit" name="box14x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2817,11 +4488,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="15">
       <widget class="QTextEdit" name="box14x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2832,11 +4512,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="7">
       <widget class="QTextEdit" name="box11x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2847,11 +4536,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="8" column="11">
       <widget class="QTextEdit" name="box8x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2862,11 +4560,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="4">
       <widget class="QTextEdit" name="box7x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2877,11 +4584,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="10">
       <widget class="QTextEdit" name="box10x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2892,11 +4608,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="14">
       <widget class="QTextEdit" name="box4x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2907,11 +4632,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="11">
       <widget class="QTextEdit" name="box4x10">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2922,11 +4656,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="2">
       <widget class="QTextEdit" name="box7x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2937,11 +4680,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="13">
       <widget class="QTextEdit" name="box11x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2952,11 +4704,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="7">
       <widget class="QTextEdit" name="box5x6">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2967,11 +4728,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="6">
       <widget class="QTextEdit" name="box7x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2982,11 +4752,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="5" column="9">
       <widget class="QTextEdit" name="box5x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -2997,11 +4776,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="1">
       <widget class="QTextEdit" name="box2x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3012,11 +4800,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
       <widget class="QTextEdit" name="box1x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3027,11 +4824,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="2">
       <widget class="QTextEdit" name="box9x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3042,11 +4848,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="14">
       <widget class="QTextEdit" name="box13x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3057,11 +4872,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="6">
       <widget class="QTextEdit" name="box3x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3072,11 +4896,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="13">
       <widget class="QTextEdit" name="box9x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3087,11 +4920,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="14">
       <widget class="QTextEdit" name="box1x13">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3102,11 +4944,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="13">
       <widget class="QTextEdit" name="box4x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3117,11 +4968,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="8">
       <widget class="QTextEdit" name="box6x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3132,11 +4992,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="6">
       <widget class="QTextEdit" name="box13x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3147,11 +5016,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="2">
       <widget class="QTextEdit" name="box4x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3162,11 +5040,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="4">
       <widget class="QTextEdit" name="box2x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3177,11 +5064,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="10">
       <widget class="QTextEdit" name="box2x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3192,11 +5088,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="9">
       <widget class="QTextEdit" name="box6x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3207,11 +5112,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="8">
       <widget class="QTextEdit" name="box2x7">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3222,11 +5136,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="2">
       <widget class="QTextEdit" name="box3x1">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3237,11 +5160,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="2" column="12">
       <widget class="QTextEdit" name="box2x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3252,11 +5184,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="13" column="13">
       <widget class="QTextEdit" name="box13x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3267,11 +5208,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="9" column="15">
       <widget class="QTextEdit" name="box9x14">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3282,11 +5232,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="14" column="6">
       <widget class="QTextEdit" name="box14x5">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3297,11 +5256,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="12" column="1">
       <widget class="QTextEdit" name="box12x0">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3312,11 +5280,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="4" column="5">
       <widget class="QTextEdit" name="box4x4">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3327,11 +5304,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="7" column="10">
       <widget class="QTextEdit" name="box7x9">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3342,11 +5328,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="10" column="12">
       <widget class="QTextEdit" name="box10x11">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3357,11 +5352,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="3" column="9">
       <widget class="QTextEdit" name="box3x8">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3372,11 +5376,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="6" column="13">
       <widget class="QTextEdit" name="box6x12">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3387,11 +5400,20 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
      <item row="11" column="4">
       <widget class="QTextEdit" name="box11x3">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
        <property name="maximumSize">
         <size>
          <width>45</width>
@@ -3402,6 +5424,9 @@
         <font>
          <pointsize>9</pointsize>
         </font>
+       </property>
+       <property name="tabChangesFocus">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
