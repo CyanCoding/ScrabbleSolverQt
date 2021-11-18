@@ -46,7 +46,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -70,7 +70,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -94,7 +94,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -118,7 +118,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -142,7 +142,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -166,7 +166,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -190,7 +190,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -214,7 +214,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -238,7 +238,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -262,7 +262,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -286,7 +286,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -310,7 +310,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -334,7 +334,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -358,7 +358,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -382,7 +382,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -406,7 +406,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -430,7 +430,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -454,7 +454,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -478,7 +478,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -502,7 +502,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -526,7 +526,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -550,7 +550,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -574,7 +574,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -598,7 +598,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -622,7 +622,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -646,7 +646,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -670,7 +670,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -694,7 +694,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -718,7 +718,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -742,7 +742,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -766,7 +766,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -790,7 +790,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -814,7 +814,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -838,7 +838,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -862,7 +862,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -886,7 +886,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -910,7 +910,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -934,7 +934,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -958,7 +958,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -982,7 +982,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1006,7 +1006,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1030,7 +1030,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1054,7 +1054,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1078,7 +1078,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1102,7 +1102,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1126,7 +1126,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1150,7 +1150,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1174,7 +1174,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1198,7 +1198,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1222,7 +1222,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1246,7 +1246,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1270,7 +1270,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1294,7 +1294,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1318,7 +1318,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1342,7 +1342,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1366,7 +1366,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1390,7 +1390,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1414,7 +1414,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1438,7 +1438,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1462,7 +1462,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1486,7 +1486,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1510,7 +1510,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1534,7 +1534,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1558,7 +1558,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1582,7 +1582,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1606,7 +1606,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1630,7 +1630,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1654,7 +1654,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1678,7 +1678,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1702,7 +1702,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1726,7 +1726,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1750,7 +1750,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1774,7 +1774,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1798,7 +1798,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1822,7 +1822,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1846,7 +1846,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1870,7 +1870,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1894,7 +1894,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1918,7 +1918,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1942,7 +1942,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1966,7 +1966,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -1990,7 +1990,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2014,7 +2014,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2038,7 +2038,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2062,7 +2062,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2086,7 +2086,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2110,7 +2110,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2134,7 +2134,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2158,7 +2158,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2182,7 +2182,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2206,7 +2206,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2230,7 +2230,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2254,7 +2254,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2278,7 +2278,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2302,7 +2302,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2326,7 +2326,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2350,7 +2350,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2374,7 +2374,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2398,7 +2398,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2422,7 +2422,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2446,7 +2446,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2470,7 +2470,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2494,7 +2494,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2518,7 +2518,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2542,7 +2542,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2566,7 +2566,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2590,7 +2590,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2614,7 +2614,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2638,7 +2638,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2662,7 +2662,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2686,7 +2686,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2710,7 +2710,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2734,7 +2734,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2758,7 +2758,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2782,7 +2782,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2806,7 +2806,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2830,7 +2830,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2854,7 +2854,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2878,7 +2878,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2902,7 +2902,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2926,7 +2926,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2950,7 +2950,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2974,7 +2974,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -2998,7 +2998,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3022,7 +3022,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3046,7 +3046,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3070,7 +3070,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3094,7 +3094,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3118,7 +3118,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3142,7 +3142,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3166,7 +3166,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3190,7 +3190,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3214,7 +3214,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3238,7 +3238,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3262,7 +3262,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3286,7 +3286,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3310,7 +3310,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3334,7 +3334,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3358,7 +3358,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3382,7 +3382,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3406,7 +3406,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3430,7 +3430,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3454,7 +3454,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3478,7 +3478,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3502,7 +3502,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3526,7 +3526,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3550,7 +3550,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3574,7 +3574,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3598,7 +3598,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3622,7 +3622,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3646,7 +3646,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3670,7 +3670,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3694,7 +3694,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3718,7 +3718,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3742,7 +3742,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3766,7 +3766,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3790,7 +3790,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3814,7 +3814,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3838,7 +3838,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3862,7 +3862,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3886,7 +3886,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3910,7 +3910,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3934,7 +3934,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3958,7 +3958,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -3982,7 +3982,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4006,7 +4006,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4030,7 +4030,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4054,7 +4054,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4078,7 +4078,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4102,7 +4102,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4126,7 +4126,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4150,7 +4150,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4174,7 +4174,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4198,7 +4198,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4222,7 +4222,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4246,7 +4246,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4270,7 +4270,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4294,7 +4294,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4318,7 +4318,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4342,7 +4342,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4366,7 +4366,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4390,7 +4390,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4414,7 +4414,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4438,7 +4438,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4462,7 +4462,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4486,7 +4486,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4510,7 +4510,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4534,7 +4534,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4558,7 +4558,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4582,7 +4582,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4606,7 +4606,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4630,7 +4630,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4654,7 +4654,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4678,7 +4678,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4702,7 +4702,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4726,7 +4726,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4750,7 +4750,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4774,7 +4774,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4798,7 +4798,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4822,7 +4822,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4846,7 +4846,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4870,7 +4870,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4894,7 +4894,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4918,7 +4918,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4942,7 +4942,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4966,7 +4966,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -4990,7 +4990,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5014,7 +5014,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5038,7 +5038,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5062,7 +5062,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5086,7 +5086,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5110,7 +5110,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5134,7 +5134,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5158,7 +5158,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5182,7 +5182,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5206,7 +5206,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5230,7 +5230,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5254,7 +5254,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5278,7 +5278,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5302,7 +5302,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5326,7 +5326,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5350,7 +5350,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5374,7 +5374,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5398,7 +5398,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
@@ -5422,7 +5422,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>9</pointsize>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="tabChangesFocus">
