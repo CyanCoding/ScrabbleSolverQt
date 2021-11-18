@@ -5446,6 +5446,9 @@
       <pointsize>9</pointsize>
      </font>
     </property>
+    <property name="placeholderText">
+     <string>Your letters</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
