@@ -11,7 +11,7 @@ MainWindow::~MainWindow() {
     delete ui;
 }
 
-
+// When the "Solve" button is pressed
 void MainWindow::on_pushButton_clicked() {
 
 }
