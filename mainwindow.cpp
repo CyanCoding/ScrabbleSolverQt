@@ -13,17 +13,30 @@ MainWindow::~MainWindow() {
 
 // Fills in boardArray
 QString** fill_board_array(Ui::MainWindow* ui) {
+    // Creates a two dimensional array 15x15
     QString** boardArray = new QString*[15];
     for (int i = 0; i < 15; i++) {
         boardArray[i] = new QString[15];
     }
 
-    boardArray[0][0] = ui->box0x0->toPlainText();
-    ui->box0x10->setText(boardArray[0][0].toUpper());
+    // Populates the array for each column and row
+    for (int i = 0; i < ui->gridLayout->columnCount(); i++) {
+      for (int j = 0; j < ui->gridLayout->rowCount(); j++) {
+          if (ui->gridLayout->itemAtPosition(i, j) != nullptr) {
+              // If the position cell isn't empty we get the widget
+              auto* textEdit = (ui->gridLayout->itemAtPosition(i, j)->widget());
+              if (textEdit->objectName() != "") {
+                  // If the widget has an objectName, (only the TextEdits)
+                  // cast it and work with it
+                  QTextEdit* text = static_cast<QTextEdit*>(textEdit);
+                  text->setText(text->toPlainText().toUpper());
+                  boardArray[i][j] = text->toPlainText();
+              }
+          }
+      }
+    }
 
     return boardArray;
-    //MainWindow::boardArray[0][0] = ui->box0x0->toPlainText();
-    //ui->box0x3->setText(MainWindow::boardArray[0][0]);
 }
 
 // When the "Solve" button is pressed
