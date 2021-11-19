@@ -30,7 +30,8 @@ std::vector<QString> read_dictionary() {
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
-    std::future<std::vector<QString>> dictAsync = std::async(read_dictionary);
+    // Start the async to read the dictionary and create a vector of words
+    dict_async = std::async(read_dictionary);
 }
 
 // Runs when the window is closed
@@ -58,11 +59,6 @@ void MainWindow::on_pushButton_clicked() {
 
     QString** boardArray = fill_board_array(ui); // A 15x15 array
 
-    //std::vector<QString> dictionary = dictAsync.get();
-    // TODO: Dictionary isn't loading?? and the async function is crashing when we wait
-    auto dictionary = read_dictionary();
-    std::cout << dictionary.size();
-
-    //ui->letterBox->setText(dictionary[30]);
+    std::vector<QString> dictionary = dict_async.get();
 }
 

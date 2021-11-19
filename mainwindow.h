@@ -21,7 +21,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    std::vector<QString> dictionary_words;
     std::future<std::vector<QString>> dictAsync;
+    std::vector<QString> dictionary_words;
 };
 #endif // MAINWINDOW_H
