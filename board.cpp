@@ -5,6 +5,7 @@
  * Used for operations with the board itself
  */
 
+#include <iostream>
 #include "board.h"
 
 namespace board {
@@ -17,8 +18,8 @@ namespace board {
         }
 
         // Populates the array for each column and row
-        for (int i = 0; i < ui->gridLayout->columnCount(); i++) {
-          for (int j = 0; j < ui->gridLayout->rowCount(); j++) {
+        for (int i = 0; i < 15; i++) {
+          for (int j = 0; j < 16; j++) {
               if (ui->gridLayout->itemAtPosition(i, j) != nullptr) {
                   // If the position cell isn't empty we get the widget
                   auto* textEdit = (ui->gridLayout->itemAtPosition(i, j)->widget());
@@ -27,7 +28,7 @@ namespace board {
                       // cast it and work with it
                       QTextEdit* text = static_cast<QTextEdit*>(textEdit);
                       text->setText(text->toPlainText().toUpper());
-                      boardArray[i][j] = text->toPlainText();
+                      boardArray[i][j - 1] = text->toPlainText();
                   }
               }
           }
