@@ -35,4 +35,35 @@ namespace board {
 
         return boardArray;
     }
+
+    // Designates playable positions on a 15x15 array with true/false
+    bool** find_positions(QString** boardArray) {
+        // Creates a two dimensional array
+        bool** newBoard = new bool*[15];
+        for (int i = 0; i < 15; i++) {
+            newBoard[i] = new bool[15];
+        }
+
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 15; j++) {
+                // Make sure it's an available spot and we haven't already found it
+                if (!newBoard[i][j] && boardArray[i][j] != "") {
+                    if (i > 0 && boardArray[i - 1][j] != "") {
+                        newBoard[i - 1][j] = true;
+                    }
+                    if (i < 14 && boardArray[i + 1][j] == "") {
+                        newBoard[i + 1][j] = true;
+                    }
+                    if (j > 0 && boardArray[i][j - 1] == "") {
+                        newBoard[i][j - 1] = true;
+                    }
+                    if (j < 14 && boardArray[i][j + 1] == "") {
+                        newBoard[i][j + 1] = true;
+                    }
+                }
+            }
+        }
+
+        return newBoard;
+    }
 }
