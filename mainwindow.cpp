@@ -66,7 +66,9 @@ void MainWindow::on_pushButton_clicked() {
     // Start the async to find anagrams from letters
     std::future<std::vector<QString>> permutation_async = std::async(anagram::read_permutations, letters);
 
+    // Get board and available positions
     QString** boardArray = board::fill_board_array(ui); // A 15x15 array
+    std::future<bool**> positions_async = std::async(board::find_positions, boardArray);
 
     // dict_async only runs once, so we only need to update the dictionary once
     if (dictionary.size() == 0) {
@@ -74,5 +76,15 @@ void MainWindow::on_pushButton_clicked() {
     }
 
     std::vector<QString> permutations = permutation_async.get();
+    bool** positions = positions_async.get();
+
+
+//    for (int i = 0; i < 15; i++) {
+//        for (int j = 0; j < 15; j++) {
+//            if (positions[i][j] == true) {
+
+//            }
+//        }
+//    }
 }
 
