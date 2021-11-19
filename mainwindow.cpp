@@ -8,6 +8,7 @@
 #include <iostream>         // std::cout
 
 
+// Reads :/dictionary.txt into a vector
 std::vector<QString> read_dictionary() {
     std::vector<QString> dictionary_words;
 
@@ -45,7 +46,7 @@ MainWindow::~MainWindow() {
  *
  * We need to do the following:
  * [x] Get the board array
- * [ ] Find anagrams of the letters in their hand
+ * [x] Find anagrams of the letters in their hand
  * [x] Initialize or use a pre-made dictionary for comparing words
  * [ ] Get positions that letters can be played in
  * - [ ] For each position, find letter positions that can be played there
@@ -57,6 +58,8 @@ MainWindow::~MainWindow() {
  */
 void MainWindow::on_pushButton_clicked() {
     QString letters = ui->letterBox->toPlainText();
+    // Start the async to find anagrams from letters
+    std::future<std::vector<QString>> permutation_async = std::async(anagram::read_permutations, letters);
 
     QString** boardArray = board::fill_board_array(ui); // A 15x15 array
 
@@ -65,6 +68,6 @@ void MainWindow::on_pushButton_clicked() {
         dictionary = dict_async.get();
     }
 
-
+    std::vector<QString> permutations = permutation_async.get();
 }
 
