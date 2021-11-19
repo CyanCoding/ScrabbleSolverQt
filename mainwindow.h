@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <vector>       // std::vector
+#include <future>       // std::future
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +21,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
+    std::vector<QString> dictionary_words;
+    std::future<std::vector<QString>> dictAsync;
 };
 #endif // MAINWINDOW_H

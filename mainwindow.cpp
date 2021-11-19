@@ -3,11 +3,34 @@
 #include "board.h"          // fill_board_array()
 
 #include <future>           // std::async
-#include <fstream>          // std::file
+#include <QFile>            // QFile
+#include <iostream>         // std::cout
+
+
+std::vector<QString> read_dictionary() {
+    std::vector<QString> dictionary_words;
+
+    // Initialize the dictionary into dictionary_words
+
+    QFile file(":/dictionary.txt");
+    if (!file.open(QIODevice::ReadOnly)) {
+        std::cout << "ERROR: The dictionary file did not open properly" << std::endl;
+        return dictionary_words;
+    }
+
+    QTextStream instream(&file);
+    while (!instream.atEnd()) {
+        dictionary_words.push_back(instream.readLine());
+    }
+
+    return dictionary_words;
+}
 
 // Runs when the window is opened
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
+
+    std::future<std::vector<QString>> dictAsync = std::async(read_dictionary);
 }
 
 // Runs when the window is closed
@@ -37,8 +60,9 @@ void MainWindow::on_pushButton_clicked() {
 
     //std::vector<QString> dictionary = dictAsync.get();
     // TODO: Dictionary isn't loading?? and the async function is crashing when we wait
-    auto dictionary = read_dictionary(5);
+    auto dictionary = read_dictionary();
+    std::cout << dictionary.size();
 
-    ui->letterBox->setText(dictionary[30]);
+    //ui->letterBox->setText(dictionary[30]);
 }
 
