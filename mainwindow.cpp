@@ -79,12 +79,12 @@ void MainWindow::on_pushButton_clicked() {
     bool** positions = positions_async.get();
 
 
-//    for (int i = 0; i < 15; i++) {
-//        for (int j = 0; j < 15; j++) {
-//            if (positions[i][j] == true) {
-
-//            }
-//        }
-//    }
+    for (int i = 0; i < 15; i++) {
+        for (int j = 0; j < 15; j++) {
+            if (positions[i][j] == true) {
+                board::write_single(ui, "1", i, j);
+            }
+        }
+    }
 }
 
