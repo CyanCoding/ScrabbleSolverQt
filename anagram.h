@@ -5,6 +5,7 @@
 #include <string>       // std::string
 
 namespace anagram {
+    // Finds every permutation (anagram non-duplicates) of the letters
     std::vector<std::string> read_permutations(std::string letters);
 }
 
