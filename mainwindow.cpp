@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "board.h"          // fill_board_array()
+#include "anagram.h"        // anagram::read_permutations()
 
 #include <future>           // std::async
 #include <QFile>            // QFile
@@ -57,8 +58,10 @@ MainWindow::~MainWindow() {
 void MainWindow::on_pushButton_clicked() {
     QString letters = ui->letterBox->toPlainText();
 
-    QString** boardArray = fill_board_array(ui); // A 15x15 array
+    QString** boardArray = board::fill_board_array(ui); // A 15x15 array
 
     std::vector<QString> dictionary = dict_async.get();
+
+
 }
 
