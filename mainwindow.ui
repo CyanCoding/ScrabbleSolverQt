@@ -5550,8 +5550,8 @@
   </action>
  </widget>
  <tabstops>
-  <tabstop>box6x7</tabstop>
-  <tabstop>box6x8</tabstop>
+  <tabstop>box0x0</tabstop>
+  <tabstop>box0x1</tabstop>
   <tabstop>box0x2</tabstop>
   <tabstop>box0x3</tabstop>
   <tabstop>box0x4</tabstop>
@@ -5647,134 +5647,134 @@
   <tabstop>box6x4</tabstop>
   <tabstop>box6x5</tabstop>
   <tabstop>box6x6</tabstop>
-  <tabstop>box12x7</tabstop>
-  <tabstop>box12x8</tabstop>
-  <tabstop>box14x2</tabstop>
-  <tabstop>box10x4</tabstop>
-  <tabstop>box13x1</tabstop>
-  <tabstop>box0x1</tabstop>
-  <tabstop>box0x0</tabstop>
+  <tabstop>box6x7</tabstop>
+  <tabstop>box6x8</tabstop>
+  <tabstop>box6x9</tabstop>
+  <tabstop>box6x10</tabstop>
+  <tabstop>box6x11</tabstop>
+  <tabstop>box6x12</tabstop>
+  <tabstop>box6x13</tabstop>
+  <tabstop>box6x14</tabstop>
+  <tabstop>box7x0</tabstop>
+  <tabstop>box7x1</tabstop>
+  <tabstop>box7x2</tabstop>
+  <tabstop>box7x3</tabstop>
+  <tabstop>box7x4</tabstop>
+  <tabstop>box7x5</tabstop>
+  <tabstop>box7x6</tabstop>
+  <tabstop>box7x7</tabstop>
+  <tabstop>box7x8</tabstop>
+  <tabstop>box7x9</tabstop>
   <tabstop>box7x10</tabstop>
+  <tabstop>box7x11</tabstop>
+  <tabstop>box7x12</tabstop>
+  <tabstop>box7x13</tabstop>
+  <tabstop>box7x14</tabstop>
+  <tabstop>box8x0</tabstop>
+  <tabstop>box8x1</tabstop>
+  <tabstop>box8x2</tabstop>
+  <tabstop>box8x3</tabstop>
+  <tabstop>box8x4</tabstop>
+  <tabstop>box8x5</tabstop>
+  <tabstop>box8x6</tabstop>
+  <tabstop>box8x7</tabstop>
   <tabstop>box8x8</tabstop>
-  <tabstop>box10x3</tabstop>
-  <tabstop>box14x11</tabstop>
+  <tabstop>box8x9</tabstop>
+  <tabstop>box8x10</tabstop>
+  <tabstop>box8x11</tabstop>
+  <tabstop>box8x12</tabstop>
+  <tabstop>box8x13</tabstop>
+  <tabstop>box8x14</tabstop>
+  <tabstop>box9x0</tabstop>
+  <tabstop>box9x1</tabstop>
+  <tabstop>box9x2</tabstop>
+  <tabstop>box9x3</tabstop>
+  <tabstop>box9x4</tabstop>
+  <tabstop>box9x5</tabstop>
   <tabstop>box9x6</tabstop>
-  <tabstop>box13x8</tabstop>
-  <tabstop>box14x9</tabstop>
-  <tabstop>box12x13</tabstop>
-  <tabstop>box11x11</tabstop>
+  <tabstop>box9x7</tabstop>
+  <tabstop>box9x8</tabstop>
+  <tabstop>box9x9</tabstop>
+  <tabstop>box9x10</tabstop>
+  <tabstop>box9x11</tabstop>
+  <tabstop>box9x12</tabstop>
+  <tabstop>box9x13</tabstop>
+  <tabstop>box9x14</tabstop>
+  <tabstop>box10x0</tabstop>
+  <tabstop>box10x1</tabstop>
   <tabstop>box10x2</tabstop>
+  <tabstop>box10x3</tabstop>
+  <tabstop>box10x4</tabstop>
+  <tabstop>box10x5</tabstop>
+  <tabstop>box10x6</tabstop>
+  <tabstop>box10x7</tabstop>
+  <tabstop>box10x8</tabstop>
+  <tabstop>box10x9</tabstop>
+  <tabstop>box10x10</tabstop>
+  <tabstop>box10x11</tabstop>
+  <tabstop>box10x12</tabstop>
+  <tabstop>box10x13</tabstop>
+  <tabstop>box10x14</tabstop>
+  <tabstop>box11x0</tabstop>
+  <tabstop>box11x1</tabstop>
+  <tabstop>box11x2</tabstop>
+  <tabstop>box11x3</tabstop>
+  <tabstop>box11x4</tabstop>
+  <tabstop>box11x5</tabstop>
+  <tabstop>box11x6</tabstop>
+  <tabstop>box11x7</tabstop>
+  <tabstop>box11x8</tabstop>
+  <tabstop>box11x9</tabstop>
+  <tabstop>box11x10</tabstop>
+  <tabstop>box11x11</tabstop>
+  <tabstop>box11x12</tabstop>
+  <tabstop>box11x13</tabstop>
+  <tabstop>box11x14</tabstop>
+  <tabstop>box12x0</tabstop>
   <tabstop>box12x1</tabstop>
   <tabstop>box12x2</tabstop>
-  <tabstop>box14x6</tabstop>
-  <tabstop>box9x13</tabstop>
   <tabstop>box12x3</tabstop>
-  <tabstop>box13x10</tabstop>
-  <tabstop>box6x9</tabstop>
-  <tabstop>box7x13</tabstop>
-  <tabstop>box14x12</tabstop>
-  <tabstop>box9x3</tabstop>
-  <tabstop>box9x5</tabstop>
-  <tabstop>box7x12</tabstop>
-  <tabstop>box6x11</tabstop>
-  <tabstop>box11x5</tabstop>
-  <tabstop>box8x6</tabstop>
-  <tabstop>box12x5</tabstop>
-  <tabstop>box10x1</tabstop>
-  <tabstop>box8x1</tabstop>
-  <tabstop>box14x0</tabstop>
-  <tabstop>box12x6</tabstop>
-  <tabstop>box7x4</tabstop>
-  <tabstop>box11x13</tabstop>
-  <tabstop>box7x6</tabstop>
-  <tabstop>box11x10</tabstop>
-  <tabstop>box9x8</tabstop>
-  <tabstop>box8x9</tabstop>
-  <tabstop>box11x7</tabstop>
-  <tabstop>box9x7</tabstop>
-  <tabstop>box8x0</tabstop>
-  <tabstop>box9x11</tabstop>
-  <tabstop>box13x14</tabstop>
-  <tabstop>box13x9</tabstop>
-  <tabstop>box10x14</tabstop>
-  <tabstop>box14x3</tabstop>
-  <tabstop>box9x2</tabstop>
-  <tabstop>box12x10</tabstop>
-  <tabstop>box14x4</tabstop>
-  <tabstop>box10x10</tabstop>
-  <tabstop>box13x2</tabstop>
-  <tabstop>box13x7</tabstop>
-  <tabstop>box13x6</tabstop>
-  <tabstop>box8x11</tabstop>
-  <tabstop>box11x9</tabstop>
-  <tabstop>box8x7</tabstop>
-  <tabstop>box10x0</tabstop>
-  <tabstop>box8x3</tabstop>
-  <tabstop>box6x13</tabstop>
-  <tabstop>box10x7</tabstop>
-  <tabstop>box13x4</tabstop>
-  <tabstop>box12x9</tabstop>
-  <tabstop>box13x11</tabstop>
-  <tabstop>box6x10</tabstop>
-  <tabstop>box8x13</tabstop>
-  <tabstop>box8x4</tabstop>
-  <tabstop>box7x2</tabstop>
-  <tabstop>box9x4</tabstop>
-  <tabstop>box10x13</tabstop>
-  <tabstop>box8x2</tabstop>
-  <tabstop>box10x12</tabstop>
-  <tabstop>box7x14</tabstop>
-  <tabstop>box12x14</tabstop>
-  <tabstop>box9x0</tabstop>
-  <tabstop>box10x8</tabstop>
-  <tabstop>box14x7</tabstop>
-  <tabstop>box10x6</tabstop>
-  <tabstop>box14x13</tabstop>
-  <tabstop>box11x2</tabstop>
   <tabstop>box12x4</tabstop>
-  <tabstop>box8x5</tabstop>
-  <tabstop>box6x14</tabstop>
-  <tabstop>box9x9</tabstop>
-  <tabstop>box14x8</tabstop>
-  <tabstop>box14x14</tabstop>
-  <tabstop>box11x6</tabstop>
-  <tabstop>box8x10</tabstop>
-  <tabstop>box7x3</tabstop>
-  <tabstop>box10x9</tabstop>
-  <tabstop>box7x7</tabstop>
-  <tabstop>box13x3</tabstop>
-  <tabstop>box7x1</tabstop>
-  <tabstop>box11x12</tabstop>
-  <tabstop>box14x1</tabstop>
-  <tabstop>box7x5</tabstop>
-  <tabstop>box8x14</tabstop>
+  <tabstop>box12x5</tabstop>
+  <tabstop>box12x6</tabstop>
+  <tabstop>box12x7</tabstop>
+  <tabstop>box12x8</tabstop>
+  <tabstop>box12x9</tabstop>
+  <tabstop>box12x10</tabstop>
   <tabstop>box12x11</tabstop>
-  <tabstop>box13x0</tabstop>
-  <tabstop>box9x1</tabstop>
-  <tabstop>box13x13</tabstop>
-  <tabstop>box7x0</tabstop>
-  <tabstop>box9x12</tabstop>
-  <tabstop>box11x14</tabstop>
-  <tabstop>box11x4</tabstop>
-  <tabstop>box7x8</tabstop>
-  <tabstop>box13x5</tabstop>
-  <tabstop>box11x8</tabstop>
-  <tabstop>box9x10</tabstop>
-  <tabstop>box14x10</tabstop>
-  <tabstop>box11x0</tabstop>
-  <tabstop>box8x12</tabstop>
-  <tabstop>box11x1</tabstop>
   <tabstop>box12x12</tabstop>
+  <tabstop>box12x13</tabstop>
+  <tabstop>box12x14</tabstop>
+  <tabstop>box13x0</tabstop>
+  <tabstop>box13x1</tabstop>
+  <tabstop>box13x2</tabstop>
+  <tabstop>box13x3</tabstop>
+  <tabstop>box13x4</tabstop>
+  <tabstop>box13x5</tabstop>
+  <tabstop>box13x6</tabstop>
+  <tabstop>box13x7</tabstop>
+  <tabstop>box13x8</tabstop>
+  <tabstop>box13x9</tabstop>
+  <tabstop>box13x10</tabstop>
+  <tabstop>box13x11</tabstop>
   <tabstop>box13x12</tabstop>
-  <tabstop>box9x14</tabstop>
+  <tabstop>box13x13</tabstop>
+  <tabstop>box13x14</tabstop>
+  <tabstop>box14x0</tabstop>
+  <tabstop>box14x1</tabstop>
+  <tabstop>box14x2</tabstop>
+  <tabstop>box14x3</tabstop>
+  <tabstop>box14x4</tabstop>
   <tabstop>box14x5</tabstop>
-  <tabstop>box12x0</tabstop>
-  <tabstop>box10x5</tabstop>
-  <tabstop>box7x9</tabstop>
-  <tabstop>box10x11</tabstop>
-  <tabstop>box7x11</tabstop>
-  <tabstop>box6x12</tabstop>
-  <tabstop>box11x3</tabstop>
+  <tabstop>box14x6</tabstop>
+  <tabstop>box14x7</tabstop>
+  <tabstop>box14x8</tabstop>
+  <tabstop>box14x9</tabstop>
+  <tabstop>box14x10</tabstop>
+  <tabstop>box14x11</tabstop>
+  <tabstop>box14x12</tabstop>
+  <tabstop>box14x13</tabstop>
+  <tabstop>box14x14</tabstop>
   <tabstop>letterBox</tabstop>
   <tabstop>pushButton</tabstop>
  </tabstops>
