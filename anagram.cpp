@@ -1,11 +1,12 @@
 #include "anagram.h"
 
 #include <algorithm>    // std::sort
+#include <string>       // std::string
 
 namespace anagram {
     // Finds every permutation (anagram non-duplicates) of the letters
-    std::vector<std::string> read_permutations(std::string letters) {
-        std::vector<std::string> permutations;
+    std::vector<QString> read_permutations(QString letters) {
+        std::vector<QString> permutations;
 
         std::sort(letters.begin(), letters.end());
         do {
