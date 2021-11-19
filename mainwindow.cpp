@@ -60,7 +60,10 @@ void MainWindow::on_pushButton_clicked() {
 
     QString** boardArray = board::fill_board_array(ui); // A 15x15 array
 
-    std::vector<QString> dictionary = dict_async.get();
+    // dict_async only runs once, so we only need to update the dictionary once
+    if (dictionary.size() == 0) {
+        dictionary = dict_async.get();
+    }
 
 
 }
