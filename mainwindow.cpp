@@ -43,15 +43,15 @@ MainWindow::~MainWindow() {
  * When the solve button is pressed
  *
  * We need to do the following:
- * - Get the board array
- * - Find anagrams of the letters in their hand
- * - Initialize or use a pre-made dictionary for comparing words
- * - Get positions that letters can be played in
- * - - For each position, find letter positions that can be played there
- * - - Compile those positions into a list
- * - - Check to see which of those form valid words
- * - - Calculate how many points each is worth
- * - - Resort by the amount of points
+ * [x] Get the board array
+ * [ ] Find anagrams of the letters in their hand
+ * [x] Initialize or use a pre-made dictionary for comparing words
+ * [ ] Get positions that letters can be played in
+ * - [ ] For each position, find letter positions that can be played there
+ * - [ ] Compile those positions into a list
+ * - [ ] Check to see which of those form valid words
+ * - [ ] Calculate how many points each is worth
+ * - [ ] Resort by the amount of points
  *
  */
 void MainWindow::on_pushButton_clicked() {
