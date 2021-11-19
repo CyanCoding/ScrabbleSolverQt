@@ -5,6 +5,7 @@
 
 #include <future>           // std::async
 #include <QFile>            // QFile
+#include <QTextStream>      // QTextStream
 #include <iostream>         // std::cout
 
 
