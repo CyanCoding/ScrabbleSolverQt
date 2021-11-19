@@ -46,6 +46,25 @@ MainWindow::~MainWindow() {
     delete ui;
 }
 
+// Runs when the "Clear board" action is pressed in the menu
+void MainWindow::on_actionClear_board_triggered() {
+    // Populates the array for each column and row
+    for (int i = 0; i < 15; i++) {
+        for (int j = 0; j < 16; j++) {
+            if (ui->gridLayout->itemAtPosition(i, j) != nullptr) {
+                // If the position cell isn't empty we get the widget
+                auto* textEdit = (ui->gridLayout->itemAtPosition(i, j)->widget());
+                if (textEdit->objectName() != "") {
+                    // If the widget has an objectName, (only the TextEdits)
+                    // cast it and work with it
+                    QTextEdit* text = static_cast<QTextEdit*>(textEdit);
+                    text->setText("");
+                }
+            }
+        }
+    }
+}
+
 /*
  * When the solve button is pressed
  *
