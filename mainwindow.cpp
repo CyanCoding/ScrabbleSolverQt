@@ -18,6 +18,10 @@ std::vector<QString> read_dictionary() {
     QFile file(":/dictionary.txt");
     if (!file.open(QIODevice::ReadOnly)) {
         std::cout << "ERROR: The dictionary file did not open properly" << std::endl;
+
+        // We add one so size isn't 0, which would cause an error later
+        // when we try to async.get() more than once
+        dictionary_words.push_back("error");
         return dictionary_words;
     }
 
