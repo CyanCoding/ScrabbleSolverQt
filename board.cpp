@@ -5,7 +5,6 @@
  * Used for operations with the board itself
  */
 
-#include <iostream>
 #include "board.h"
 
 namespace board {
@@ -47,9 +46,9 @@ namespace board {
 
         for (int i = 0; i < 15; i++) {
             for (int j = 0; j < 15; j++) {
-                // Make sure it's an available spot and we haven't already found it
-                if (!newBoard[i][j] && boardArray[i][j] != "") {
-                    if (i > 0 && boardArray[i - 1][j] != "") {
+                // Make sure it's an available spot
+                if (boardArray[i][j] != "") {
+                    if (i > 0 && boardArray[i - 1][j] == "") {
                         newBoard[i - 1][j] = true;
                     }
                     if (i < 14 && boardArray[i + 1][j] == "") {
