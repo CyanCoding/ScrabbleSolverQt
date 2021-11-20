@@ -72,7 +72,7 @@ void MainWindow::on_actionClear_board_triggered() {
  * [x] Get the board array
  * [x] Find anagrams of the letters in their hand
  * [x] Initialize or use a pre-made dictionary for comparing words
- * [ ] Get positions that letters can be played in
+ * [x] Get positions that letters can be played in
  * - [ ] For each position, find letter positions that can be played there
  * - [ ] Compile those positions into a list
  * - [ ] Check to see which of those form valid words
