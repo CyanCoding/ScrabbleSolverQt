@@ -90,7 +90,6 @@ void MainWindow::on_pushButton_clicked() {
     QString** boardArray = board::fill_board_array(ui); // A 15x15 array
     std::future<bool**> positions_async = std::async(board::find_positions, boardArray);
 
-    std::vector<QString> permutations = permutation_async.get();
     bool** positions = positions_async.get();
 
     // We split the positions into four groups
@@ -130,10 +129,16 @@ void MainWindow::on_pushButton_clicked() {
     }
 
     // The meat of our program! This finds new boards based on free positions
-    std::future<std::vector<QString**>> group1_async = std::async(algorithm::generate_boards, group1, boardArray, dictionary);
-    std::future<std::vector<QString**>> group2_async = std::async(algorithm::generate_boards, group2, boardArray, dictionary);
-    std::future<std::vector<QString**>> group3_async = std::async(algorithm::generate_boards, group3, boardArray, dictionary);
-    std::future<std::vector<QString**>> group4_async = std::async(algorithm::generate_boards, group4, boardArray, dictionary);
+    std::vector<QString> permutations = permutation_async.get();
+
+    std::future<std::vector<QString**>> group1_async = std::async(
+                algorithm::generate_boards, group1, boardArray, dictionary, permutations);
+    std::future<std::vector<QString**>> group2_async = std::async(
+                algorithm::generate_boards, group2, boardArray, dictionary, permutations);
+    std::future<std::vector<QString**>> group3_async = std::async(
+                algorithm::generate_boards, group3, boardArray, dictionary, permutations);
+    std::future<std::vector<QString**>> group4_async = std::async(
+                algorithm::generate_boards, group4, boardArray, dictionary, permutations);
 
 }
 

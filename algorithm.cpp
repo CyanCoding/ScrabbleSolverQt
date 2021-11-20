@@ -4,7 +4,8 @@ namespace algorithm {
     // Generates valid board positions
     std::vector<QString**> generate_boards(std::vector<MainWindow::xy> positions,
                                            QString** boardArray,
-                                           std::vector<QString> dictionary) {
+                                           std::vector<QString> dictionary,
+                                           std::vector<QString> permutations) {
 
         // Operate on every position
         for (int i = 0; i < positions.size(); i++) {
@@ -25,6 +26,9 @@ namespace algorithm {
                     }
                 }
             }
+
+            // Then we calculate the letter positions for this spot
+
 
 
         }
