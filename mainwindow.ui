@@ -1537,8 +1537,14 @@
          <pointsize>14</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
        <property name="tabChangesFocus">
         <bool>true</bool>
+       </property>
+       <property name="readOnly">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
