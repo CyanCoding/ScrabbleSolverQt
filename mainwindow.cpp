@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "board.h"          // fill_board_array()
 #include "anagram.h"        // anagram::read_permutations()
+#include "algorithm.h"       // algorithm::generate_boards()
 
 #include <future>           // std::async
 #include <QFile>            // QFile
@@ -127,5 +128,12 @@ void MainWindow::on_pushButton_clicked() {
     if (dictionary.size() == 0) {
         dictionary = dict_async.get();
     }
+
+    // The meat of our program! This finds new boards based on free positions
+    std::future<std::vector<QString**>> group1_async = std::async(algorithm::generate_boards, group1, boardArray, dictionary);
+    std::future<std::vector<QString**>> group2_async = std::async(algorithm::generate_boards, group2, boardArray, dictionary);
+    std::future<std::vector<QString**>> group3_async = std::async(algorithm::generate_boards, group3, boardArray, dictionary);
+    std::future<std::vector<QString**>> group4_async = std::async(algorithm::generate_boards, group4, boardArray, dictionary);
+
 }
 
