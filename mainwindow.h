@@ -16,6 +16,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    struct xy { // Used for storing two-dimensional information in an array
+        int x, y;
+    };
+
 private slots:
     void on_pushButton_clicked();
     void on_actionClear_board_triggered();
@@ -25,9 +29,5 @@ private:
 
     std::future<std::vector<QString>> dict_async;   // Async for reading dictionary words
     std::vector<QString> dictionary;                // The vector that dict_async reads into
-
-    struct xy { // Used for storing two-dimensional information in an array
-        int x, y;
-    };
 };
 #endif // MAINWINDOW_H
