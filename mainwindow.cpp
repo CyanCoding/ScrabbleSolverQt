@@ -82,13 +82,13 @@ void MainWindow::on_actionClear_board_triggered() {
  *
  */
 void MainWindow::on_pushButton_clicked() {
-    QString letters = ui->letterBox->toPlainText();
-    // Start the async to find anagrams from letters
-    std::future<std::vector<QString>> permutation_async = std::async(anagram::read_permutations, letters);
-
     // Get board and available positions
     QString** boardArray = board::fill_board_array(ui); // A 15x15 array
     std::future<bool**> positions_async = std::async(board::find_positions, boardArray);
+
+    QString letters = ui->letterBox->toPlainText();
+    // Start the async to find anagrams from letters
+    std::future<std::vector<QString>> permutation_async = std::async(anagram::read_permutations, letters);
 
     bool** positions = positions_async.get();
 
