@@ -89,21 +89,43 @@ void MainWindow::on_pushButton_clicked() {
     QString** boardArray = board::fill_board_array(ui); // A 15x15 array
     std::future<bool**> positions_async = std::async(board::find_positions, boardArray);
 
-    // dict_async only runs once, so we only need to update the dictionary once
-    if (dictionary.size() == 0) {
-        dictionary = dict_async.get();
-    }
-
     std::vector<QString> permutations = permutation_async.get();
     bool** positions = positions_async.get();
 
+    // We split the positions into four groups
+    std::vector<xy> group1;
+    std::vector<xy> group2;
+    std::vector<xy> group3;
+    std::vector<xy> group4;
 
+    std::vector<xy> allPoints;
     for (int i = 0; i < 15; i++) {
         for (int j = 0; j < 15; j++) {
             if (positions[i][j] == true) {
-                board::write_single(ui, "1", i, j);
+                struct xy point = { i, j };
+                allPoints.push_back(point);
             }
         }
+    }
+
+    for (unsigned long i = 0; i < allPoints.size(); i++) {
+        if (i < allPoints.size() / 3) {
+            group1.push_back(allPoints[i]);
+        }
+        else if (i < allPoints.size() / 2) {
+            group2.push_back(allPoints[i]);
+        }
+        else if (i < allPoints.size() / 2 * 1.5) {
+            group3.push_back(allPoints[i]);
+        }
+        else {
+            group4.push_back(allPoints[i]);
+        }
+    }
+
+    // dict_async only runs once, so we only need to update the dictionary once
+    if (dictionary.size() == 0) {
+        dictionary = dict_async.get();
     }
 }
 
