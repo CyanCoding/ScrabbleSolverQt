@@ -14,13 +14,15 @@ SOURCES += \
     anagram.cpp \
     board.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    thread_distributor.cpp
 
 HEADERS += \
     algorithm.h \
     anagram.h \
     board.h \
-    mainwindow.h
+    mainwindow.h \
+    thread_distributor.h
 
 FORMS += \
     mainwindow.ui
