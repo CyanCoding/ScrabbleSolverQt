@@ -125,11 +125,8 @@ namespace algorithm {
             std::vector<std::vector<QString>> permutations,
             int letters) {
 
-        // std::cout << "They have " << letters << " letters in their hand" << std::endl;
-
         std::vector<std::vector<std::vector<QString>>> boards;
 
-        // std::cout << "We're solving for " << positions.size() << " positions" << std::endl;
         // Operate on every position
         for (unsigned long i = 0; i < positions.size(); i++) {
             // Then we calculate the letter positions for this spot
@@ -137,20 +134,13 @@ namespace algorithm {
 
             // found_pos is every position you can play letters in at any length
             std::vector<std::vector<MainWindow::xy>> found_pos = find_positions(boardArray, pos, letters);
-            // std::cout << "\t" << found_pos.size() << " positions here" << std::endl;
 
             // Then we plug letters into the positions
             for (unsigned long j = 0; j < found_pos.size() - 1; j++) {
                 // pos is a specific position out of found_pos
                 std::vector<MainWindow::xy> pos = found_pos[j];
 
-                // std::cout << "\tExecuting permutations " << permutations.size()
-                //          << " [ " << pos.size() << "]" << std::endl;
-
                 std::vector<QString> length_permutations = permutations[pos.size()];
-
-                // std::cout << "\tOut of " << permutations[letters - 1].size() << " permutations, we're using "
-                //          << length_permutations.size() << std::endl;
 
                 // For each valid permutation of that length, fill into positions
                 for (QString s : length_permutations) {
@@ -168,20 +158,14 @@ namespace algorithm {
                             }
                         }
                     }
-                    //std::cout << "\tCreated a new board! Fill length: " << pos.size()
-                    //          << " s: " << s.length() << std::endl;
-                    //std::cout << "\tRunning " << std::endl;
 
                     for (unsigned long k = 0; k < pos.size(); k++) {
-                        //std::cout << "\t" << k << std::endl;
                         // Then modify that board by filling in those positions
                         MainWindow::xy p = pos[k];
                         newBoard[p.y][p.x] = s[static_cast<int>(k)]; // s is a (s)ingle permutation
                     }
                     // Add the new board to the list
                     boards.push_back(newBoard);
-
-                    //std::cout << "\tAdded it to a list" << std::endl;
                 }
             }
         }
