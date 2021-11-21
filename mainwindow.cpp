@@ -3,6 +3,7 @@
 #include "board.h"          // fill_board_array()
 #include "anagram.h"        // anagram::read_permutations()
 #include "algorithm.h"       // algorithm::generate_boards()
+#include "thread_distributor.h" //
 
 #include <future>           // std::async
 #include <QFile>            // QFile
@@ -78,7 +79,7 @@ void display_board(
 }
 
 void MainWindow::on_nextButton_clicked() {
-    if (board_number >= all_boards.size()) {
+    if (board_number >= all_boards.size() - 1) {
         std::cout << "We've reached the height limit!" << std::endl;
         return;
     }
@@ -174,8 +175,6 @@ void MainWindow::on_pushButton_clicked() {
         dictionary = dict_async.get();
     }
 
-    // TODO: Try a two-dimensional vector for the board instead of an array
-
     // The meat of our program! This finds new boards based on free positions
     std::vector<std::vector<QString>> permutations = permutation_async.get();
 
@@ -190,9 +189,13 @@ void MainWindow::on_pushButton_clicked() {
                 algorithm::generate_boards, group4, boardArray, dictionary, permutations, letterLength);
 
     std::vector<std::vector<std::vector<QString>>> group1_boards = group1_async.get();
+    std::cout << "Finished the first group" << std::endl;
     std::vector<std::vector<std::vector<QString>>> group2_boards = group2_async.get();
+    std::cout << "Finished the second group" << std::endl;
     std::vector<std::vector<std::vector<QString>>> group3_boards = group3_async.get();
+    std::cout << "Finished the third group" << std::endl;
     std::vector<std::vector<std::vector<QString>>> group4_boards = group4_async.get();
+    std::cout << "Finished the fourth group" << std::endl;
 
     for (std::vector<std::vector<QString>> board : group1_boards) {
         all_boards.push_back(board);
@@ -206,6 +209,8 @@ void MainWindow::on_pushButton_clicked() {
     for (std::vector<std::vector<QString>> board : group4_boards) {
         all_boards.push_back(board);
     }
+
+    //all_boards = td::distribute(allPoints, boardArray, dictionary, permutations, letterLength);
 
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;
