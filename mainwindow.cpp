@@ -66,7 +66,7 @@ void MainWindow::on_actionClear_board_triggered() {
     }
 }
 
-void display_board(Ui::MainWindow* ui, QString** board) {
+void display_board(Ui::MainWindow* ui, std::vector<std::vector<QString>> board) {
     for (int i = 0; i < 15; i++) {
         for (int j = 0; j < 15; j++) {
             if (board[i][j] != "") {
@@ -122,15 +122,17 @@ void MainWindow::on_pushButton_clicked() {
 
     std::cout << "Assembling board..." << std::endl;
     // Get board and available positions
-    QString** boardArray = board::fill_board_array(ui); // A 15x15 array
-    std::future<bool**> positions_async = std::async(board::find_positions, boardArray);
+    std::vector<std::vector<QString>> boardArray = board::fill_board_array(ui); // A 15x15 array
+    std::cout << "Finding positions..." << std::endl;
+    std::future<std::vector<std::vector<bool>>> positions_async
+            = std::async(board::find_positions, boardArray);
 
     std::cout << "Creating permutations..." << std::endl;
     QString letters = ui->letterBox->toPlainText();
     // Start the async to find anagrams from letters
     std::future<std::vector<std::vector<QString>>> permutation_async = std::async(anagram::read_permutations, letters);
 
-    bool** positions = positions_async.get();
+    std::vector<std::vector<bool>> positions = positions_async.get();
 
     // We split the positions into four groups
     std::vector<xy> group1;
@@ -174,7 +176,7 @@ void MainWindow::on_pushButton_clicked() {
     std::vector<std::vector<QString>> permutations = permutation_async.get();
 
     std::cout << "Starting first group (" << group1.size() << ")..." << std::endl;
-    std::future<std::vector<QString**>> group1_async = std::async(
+    std::future<std::vector<std::vector<std::vector<QString>>>> group1_async = std::async(
                 algorithm::generate_boards, group1, boardArray, dictionary, permutations, letterLength);
 //    std::future<std::vector<QString**>> group2_async = std::async(
 //                algorithm::generate_boards, group2, boardArray, dictionary, permutations, letterLength);
@@ -183,12 +185,12 @@ void MainWindow::on_pushButton_clicked() {
 //    std::future<std::vector<QString**>> group4_async = std::async(
 //                algorithm::generate_boards, group4, boardArray, dictionary, permutations, letterLength);
 
-    std::vector<QString**> group1_boards = group1_async.get();
+    std::vector<std::vector<std::vector<QString>>> group1_boards = group1_async.get();
 //    std::vector<QString**> group2_boards = group2_async.get();
 //    std::vector<QString**> group3_boards = group3_async.get();
 //    std::vector<QString**> group4_boards = group4_async.get();
 
-    for (QString** board : group1_boards) {
+    for (std::vector<std::vector<QString>> board : group1_boards) {
         all_boards.push_back(board);
     }
 //    for (QString** board : group2_boards) {

@@ -5,7 +5,10 @@
 
 namespace algorithm {
     // Get positions to be played in
-    std::vector<std::vector<MainWindow::xy>> find_positions(QString** boardArray, MainWindow::xy pos, int maxLength) {
+    std::vector<std::vector<MainWindow::xy>> find_positions(
+            std::vector<std::vector<QString>> boardArray,
+            MainWindow::xy pos, int maxLength) {
+
         std::vector<std::vector<MainWindow::xy>> all_positions;
 
         for (int i = 0; i < maxLength; i++) {
@@ -117,15 +120,16 @@ namespace algorithm {
     }
 
     // Generates valid board positions
-    std::vector<QString**> generate_boards(std::vector<MainWindow::xy> positions,
-                                           QString** boardArray,
-                                           std::vector<QString> dictionary,
-                                           std::vector<std::vector<QString>> permutations,
-                                           int letters) {
+    std::vector<std::vector<std::vector<QString>>> generate_boards(
+            std::vector<MainWindow::xy> positions,
+            std::vector<std::vector<QString>> boardArray,
+            std::vector<QString> dictionary,
+            std::vector<std::vector<QString>> permutations,
+            int letters) {
 
         // std::cout << "They have " << letters << " letters in their hand" << std::endl;
 
-        std::vector<QString**> boards;
+        std::vector<std::vector<std::vector<QString>>> boards;
 
         // std::cout << "We're solving for " << positions.size() << " positions" << std::endl;
         // Operate on every position
@@ -153,10 +157,7 @@ namespace algorithm {
                 // For each valid permutation of that length, fill into positions
                 for (QString s : length_permutations) {
                     // Generate a new baord
-                    QString** newBoard = new QString*[15];
-                    for (int k = 0; k < 15; k++) {
-                        newBoard[k] = new QString[15];
-                    }
+                    std::vector<std::vector<QString>> newBoard(15, std::vector<QString>(15));
 
                     // Then copy from the old board to the new board
                     for (int k = 0; k < 15; k++) {
@@ -173,11 +174,11 @@ namespace algorithm {
                     //          << " s: " << s.length() << std::endl;
                     //std::cout << "\tRunning " << std::endl;
 
-                    for (int k = 0; k < pos.size(); k++) {
+                    for (unsigned long k = 0; k < pos.size(); k++) {
                         //std::cout << "\t" << k << std::endl;
                         // Then modify that board by filling in those positions
                         MainWindow::xy p = pos[k];
-                        newBoard[p.y][p.x] = s[k]; // s is a (s)ingle permutation
+                        newBoard[p.y][p.x] = s[static_cast<int>(k)]; // s is a (s)ingle permutation
                     }
                     // Add the new board to the list
                     boards.push_back(newBoard);

@@ -9,12 +9,9 @@
 
 namespace board {
     // Fills in boardArray[15][15]
-    QString** fill_board_array(Ui::MainWindow* ui) {
-        // Creates a two dimensional array 15x15
-        QString** boardArray = new QString*[15];
-        for (int i = 0; i < 15; i++) {
-            boardArray[i] = new QString[15];
-        }
+    std::vector<std::vector<QString>> fill_board_array(Ui::MainWindow* ui) {
+        // Creates a two dimensional vector for the board
+        std::vector<std::vector<QString>> boardArray(15, std::vector<QString>(15));
 
         // Populates the array for each column and row
         for (int i = 0; i < 15; i++) {
@@ -37,12 +34,9 @@ namespace board {
     }
 
     // Designates playable positions on a 15x15 array with true/false
-    bool** find_positions(QString** boardArray) {
+    std::vector<std::vector<bool>> find_positions(std::vector<std::vector<QString>> boardArray) {
         // Creates a two dimensional array
-        bool** newBoard = new bool*[15];
-        for (int i = 0; i < 15; i++) {
-            newBoard[i] = new bool[15];
-        }
+        std::vector<std::vector<bool>> newBoard(15, std::vector<bool>(15));
 
         for (int i = 0; i < 15; i++) {
             for (int j = 0; j < 15; j++) {

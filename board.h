@@ -6,10 +6,10 @@
 
 namespace board {
     // Converts the board into a 15x15 array
-    QString** fill_board_array(Ui::MainWindow* ui);
+    std::vector<std::vector<QString>> fill_board_array(Ui::MainWindow* ui);
 
     // Designates playable positions on a 15x15 array with true/false
-    bool** find_positions(QString** boardArray);
+    std::vector<std::vector<bool>> find_positions(std::vector<std::vector<QString>> boardArray);
 
     // Writes a value to a specific box on the board
     void write_single(Ui::MainWindow* ui, QString value, int column, int row);
