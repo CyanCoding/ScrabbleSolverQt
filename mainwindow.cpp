@@ -66,22 +66,23 @@ void MainWindow::on_actionClear_board_triggered() {
     }
 }
 
-void display_board(Ui::MainWindow* ui, std::vector<std::vector<QString>> board) {
+void display_board(
+        Ui::MainWindow* ui,
+        std::vector<std::vector<QString>> board) {
+
     for (int i = 0; i < 15; i++) {
         for (int j = 0; j < 15; j++) {
-            if (board[i][j] != "") {
-                board::write_single(ui, board[i][j], i, j);
-            }
+            board::write_single(ui, board[i][j], i, j);
         }
     }
 }
 
 void MainWindow::on_nextButton_clicked() {
-    if (board_number == all_boards.size()) {
+    if (board_number >= all_boards.size()) {
         std::cout << "We've reached the height limit!" << std::endl;
         return;
     }
-    board_number += 250;
+    board_number += 1;
     display_board(ui, all_boards[board_number]);
 }
 
@@ -123,6 +124,7 @@ void MainWindow::on_pushButton_clicked() {
     std::cout << "Assembling board..." << std::endl;
     // Get board and available positions
     std::vector<std::vector<QString>> boardArray = board::fill_board_array(ui); // A 15x15 array
+
     std::cout << "Finding positions..." << std::endl;
     std::future<std::vector<std::vector<bool>>> positions_async
             = std::async(board::find_positions, boardArray);
@@ -144,7 +146,9 @@ void MainWindow::on_pushButton_clicked() {
     for (int i = 0; i < 15; i++) {
         for (int j = 0; j < 15; j++) {
             if (positions[i][j] == true) {
-                struct xy point = { i, j };
+                // We have to switch these because i is y and j is x
+                // but our struct is xy (nobody knows why lol)
+                struct xy point = { j, i };
                 allPoints.push_back(point);
             }
         }
@@ -178,30 +182,30 @@ void MainWindow::on_pushButton_clicked() {
     std::cout << "Starting first group (" << group1.size() << ")..." << std::endl;
     std::future<std::vector<std::vector<std::vector<QString>>>> group1_async = std::async(
                 algorithm::generate_boards, group1, boardArray, dictionary, permutations, letterLength);
-//    std::future<std::vector<QString**>> group2_async = std::async(
-//                algorithm::generate_boards, group2, boardArray, dictionary, permutations, letterLength);
-//    std::future<std::vector<QString**>> group3_async = std::async(
-//                algorithm::generate_boards, group3, boardArray, dictionary, permutations, letterLength);
-//    std::future<std::vector<QString**>> group4_async = std::async(
-//                algorithm::generate_boards, group4, boardArray, dictionary, permutations, letterLength);
+    std::future<std::vector<std::vector<std::vector<QString>>>> group2_async = std::async(
+                algorithm::generate_boards, group2, boardArray, dictionary, permutations, letterLength);
+    std::future<std::vector<std::vector<std::vector<QString>>>> group3_async = std::async(
+                algorithm::generate_boards, group3, boardArray, dictionary, permutations, letterLength);
+    std::future<std::vector<std::vector<std::vector<QString>>>> group4_async = std::async(
+                algorithm::generate_boards, group4, boardArray, dictionary, permutations, letterLength);
 
     std::vector<std::vector<std::vector<QString>>> group1_boards = group1_async.get();
-//    std::vector<QString**> group2_boards = group2_async.get();
-//    std::vector<QString**> group3_boards = group3_async.get();
-//    std::vector<QString**> group4_boards = group4_async.get();
+    std::vector<std::vector<std::vector<QString>>> group2_boards = group2_async.get();
+    std::vector<std::vector<std::vector<QString>>> group3_boards = group3_async.get();
+    std::vector<std::vector<std::vector<QString>>> group4_boards = group4_async.get();
 
     for (std::vector<std::vector<QString>> board : group1_boards) {
         all_boards.push_back(board);
     }
-//    for (QString** board : group2_boards) {
-//        all_boards.push_back(board);
-//    }
-//    for (QString** board : group3_boards) {
-//        all_boards.push_back(board);
-//    }
-//    for (QString** board : group4_boards) {
-//        all_boards.push_back(board);
-//    }
+    for (std::vector<std::vector<QString>> board : group2_boards) {
+        all_boards.push_back(board);
+    }
+    for (std::vector<std::vector<QString>> board : group3_boards) {
+        all_boards.push_back(board);
+    }
+    for (std::vector<std::vector<QString>> board : group4_boards) {
+        all_boards.push_back(board);
+    }
 
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;
