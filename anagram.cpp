@@ -2,6 +2,7 @@
 
 #include <algorithm>    // std::sort
 #include <string>       // std::string
+#include <iostream>     // std::cout
 
 namespace anagram {
     // Finds every permutation (anagram non-duplicates) of the letters
@@ -36,6 +37,7 @@ namespace anagram {
                 }
             }
             all_lengths.push_back(permutations_used);
+            std::cout << std::endl;
         }
 
         all_lengths.push_back(permutations);
