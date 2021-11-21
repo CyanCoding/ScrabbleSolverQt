@@ -7,7 +7,8 @@
 
 namespace anagram {
     // Finds every permutation (anagram non-duplicates) of the letters
-    std::vector<QString> read_permutations(QString letters);
+    // including lengths lower than it
+    std::vector<std::vector<QString>> read_permutations(QString letters);
 }
 
 #endif // ANAGRAM_H
