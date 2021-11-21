@@ -14,7 +14,8 @@ namespace algorithm {
     std::vector<QString**> generate_boards(std::vector<MainWindow::xy> positions,
                                            QString** boardArray,
                                            std::vector<QString>,
-                                           std::vector<QString> permutations);
+                                           std::vector<std::vector<QString>> permutations,
+                                           int letters);
 }
 
 #endif // ALGORITHM_H
