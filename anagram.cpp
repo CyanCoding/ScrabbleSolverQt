@@ -37,7 +37,6 @@ namespace anagram {
                 }
             }
             all_lengths.push_back(permutations_used);
-            std::cout << std::endl;
         }
 
         all_lengths.push_back(permutations);
