@@ -66,6 +66,35 @@ void MainWindow::on_actionClear_board_triggered() {
     }
 }
 
+void display_board(Ui::MainWindow* ui, QString** board) {
+    for (int i = 0; i < 15; i++) {
+        for (int j = 0; j < 15; j++) {
+            if (board[i][j] != "") {
+                board::write_single(ui, board[i][j], i, j);
+            }
+        }
+    }
+}
+
+void MainWindow::on_nextButton_clicked() {
+    if (board_number == all_boards.size()) {
+        std::cout << "We've reached the height limit!" << std::endl;
+        return;
+    }
+    board_number += 250;
+    display_board(ui, all_boards[board_number]);
+}
+
+void MainWindow::on_previousButton_clicked() {
+    if (board_number == 0) {
+        std::cout << "We're already viewing 0!" << std::endl;
+        return;
+    }
+
+    board_number--;
+    display_board(ui, all_boards[board_number]);
+}
+
 /*
  * When the solve button is pressed
  *
