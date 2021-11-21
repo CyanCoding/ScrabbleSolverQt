@@ -33,9 +33,6 @@ namespace td {
                 groupNumber = 0;
             }
         }
-        for (unsigned long i = 0; i < groups.size(); i++) {
-            std::cout << groups[i].size() << std::endl;
-        }
 
         std::vector<std::future<std::vector<std::vector<std::vector<QString>>>>> asyncs(100);
 
