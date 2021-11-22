@@ -1,7 +1,7 @@
 #include "algorithm.h"
 
-#include <algorithm>    // std::find
-#include <iostream>     // std::cout FOR DEBUG
+#include <algorithm>        // std::find
+#include <iostream>         // std::cout FOR DEBUG
 
 namespace algorithm {
     // Get positions to be played in
@@ -117,7 +117,7 @@ namespace algorithm {
         return all_positions;
     }
 
-    bool valid_word(std::vector<std::vector<QString>> board, std::vector<QString> dictionary) {
+    bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary) {
         std::vector<QString> words;
         for (unsigned long i = 0; i < 15; i++) {
             for (unsigned long j = 0; j < 15; j++) {
@@ -216,10 +216,15 @@ namespace algorithm {
         // TODO: Create a cache of unavailable words or some other way
         // to keep from having to iterate over the dictionary every time
         for (QString word : words) {
-            if (!(std::find(dictionary.begin(), dictionary.end(), word.toLower()) != dictionary.end())) {
-                // The word is not the dictionary
+            std::unordered_set<QString>::const_iterator got = dictionary.find(word);
+            if (got == dictionary.end()) {
+                // The word is not in the dictionary
                 return false;
             }
+//            if (!(std::find(dictionary.begin(), dictionary.end(), word.toLower()) != dictionary.end())) {
+//                // The word is not the dictionary
+//                return false;
+//            }
         }
         return true;
     }
@@ -229,7 +234,7 @@ namespace algorithm {
     std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::vector<QString> dictionary,
+            std::unordered_set<QString> dictionary,
             std::vector<std::vector<QString>> permutations,
             int letters) {
 
@@ -252,6 +257,12 @@ namespace algorithm {
 
                 // For each valid permutation of that length, fill into positions
                 for (QString s : length_permutations) {
+//                    std::unordered_set<QString>::const_iterator got = dictionary.find(s);
+//                    if (got == dictionary.end()) {
+//                        // The word is not in the dictionary
+//                        continue;
+//                    }
+                    //std::cout << s.toStdString() << std::endl;
                     // Generate a new baord
                     std::vector<std::vector<QString>> newBoard(15, std::vector<QString>(15));
 

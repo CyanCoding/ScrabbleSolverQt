@@ -12,12 +12,12 @@ namespace algorithm {
             std::vector<std::vector<QString>> boardArray, MainWindow::xy pos, int maxLength);
 
     // Checks to see if the board only contains valid words
-    bool valid_word(std::vector<std::vector<QString>> board, std::vector<QString> dictionary);
+    bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary);
 
     // Generates valid board positions
     std::vector<std::vector<std::vector<QString>>> generate_boards(std::vector<MainWindow::xy> positions,
                                            std::vector<std::vector<QString>> boardArray,
-                                           std::vector<QString>,
+                                           std::unordered_set<QString> dictionary,
                                            std::vector<std::vector<QString>> permutations,
                                            int letters);
 }
