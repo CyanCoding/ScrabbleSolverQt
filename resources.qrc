@@ -1,5 +1,13 @@
 <RCC>
     <qresource prefix="/">
         <file>dictionary.txt</file>
+        <file>dictionaries/10up.txt</file>
+        <file>dictionaries/3.txt</file>
+        <file>dictionaries/4.txt</file>
+        <file>dictionaries/5.txt</file>
+        <file>dictionaries/6.txt</file>
+        <file>dictionaries/7.txt</file>
+        <file>dictionaries/8.txt</file>
+        <file>dictionaries/9.txt</file>
     </qresource>
 </RCC>
