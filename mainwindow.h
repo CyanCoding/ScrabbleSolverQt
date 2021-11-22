@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <vector>       // std::vector
 #include <future>       // std::future
+#include <unordered_set>    // std::unordered_set
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -29,8 +30,8 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
-    std::future<std::vector<QString>> dict_async;               // Async for reading dictionary words
-    std::vector<QString> dictionary;                            // The vector that dict_async reads into
+    std::future<std::unordered_set<QString>> dict_async;               // Async for reading dictionary words
+    std::unordered_set<QString> dictionary;                            // The vector that dict_async reads into
     std::vector<std::vector<std::vector<QString>>> all_boards;  // Every board we've found
     unsigned long board_number;                                 // The number of allBoards to access
 };
