@@ -12,27 +12,38 @@
 
 
 // Reads :/dictionary.txt into a vector
-std::vector<QString> read_dictionary() {
-    std::vector<QString> dictionary_words;
+std::vector<std::unordered_set<QString>> read_dictionary() {
+    std::vector<std::unordered_set<QString>> full_dictionary;
 
     // Initialize the dictionary into dictionary_words
+    QString dictionary_paths[8] = {
+        ":/dictionaries/3.txt",
+        ":/dictionaries/4.txt",
+        ":/dictionaries/5.txt",
+        ":/dictionaries/6.txt",
+        ":/dictionaries/7.txt",
+        ":/dictionaries/8.txt",
+        ":/dictionaries/9.txt",
+        ":/dictionaries/10up.txt"
+    };
 
-    QFile file(":/dictionary.txt");
-    if (!file.open(QIODevice::ReadOnly)) {
-        std::cout << "ERROR: The dictionary file did not open properly" << std::endl;
+    for (int i = 0; i < 8; i++) {
+        std::unordered_set<QString> dictionary_words;
 
-        // We add one so size isn't 0, which would cause an error later
-        // when we try to async.get() more than once
-        dictionary_words.push_back("error");
-        return dictionary_words;
+        QFile file(dictionary_paths[i]);
+        if (!file.open(QIODevice::ReadOnly)) {
+            std::cout << "ERROR: Dictionary " << i << " did not open properly!" << std::endl;
+            continue;
+        }
+
+        QTextStream instream(&file);
+        while (!instream.atEnd()) {
+            dictionary_words.insert(instream.readLine());
+        }
+        full_dictionary.push_back(dictionary_words);
     }
 
-    QTextStream instream(&file);
-    while (!instream.atEnd()) {
-        dictionary_words.push_back(instream.readLine());
-    }
-
-    return dictionary_words;
+    return full_dictionary;
 }
 
 // Runs when the window is opened
