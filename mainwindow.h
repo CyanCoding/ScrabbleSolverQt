@@ -27,12 +27,14 @@ private slots:
     void on_previousButton_clicked();
     void on_nextButton_clicked();
 
+    void on_prune_clicked();
+
 private:
     Ui::MainWindow *ui;
 
-    std::future<std::unordered_set<QString>> dict_async;               // Async for reading dictionary words
-    std::unordered_set<QString> dictionary;                            // The vector that dict_async reads into
-    std::vector<std::vector<std::vector<QString>>> all_boards;  // Every board we've found
-    unsigned long board_number;                                 // The number of allBoards to access
+    std::future<std::vector<std::unordered_set<QString>>> dict_async;   // Async for reading dictionary words
+    std::vector<std::unordered_set<QString>> dictionary;                // The vector that dict_async reads into
+    std::vector<std::vector<std::vector<QString>>> all_boards;          // Every board we've found
+    unsigned long board_number;                                         // The number of allBoards to access
 };
 #endif // MAINWINDOW_H

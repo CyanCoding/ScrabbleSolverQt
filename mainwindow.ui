@@ -5507,6 +5507,32 @@
      <string>Next</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="prune">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>120</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Prune</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>210</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
