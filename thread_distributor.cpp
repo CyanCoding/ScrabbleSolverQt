@@ -11,7 +11,7 @@
 
 namespace td {
     // Splits our work into as many of 100 async threads as we need
-    std::vector<std::vector<std::vector<QString>>> distribute(
+    std::unordered_set<std::vector<std::vector<QString>>> distribute(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
             std::vector<std::unordered_set<QString>> dictionary,
@@ -34,20 +34,20 @@ namespace td {
             }
         }
 
-        std::vector<std::future<std::vector<std::vector<std::vector<QString>>>>> asyncs(100);
+        std::vector<std::future<algorithm::customSet>> asyncs(100);
 
         // Start all of our async processes
         for (unsigned long i = 0; i < asyncs.size(); i++) {
             asyncs[i] = std::async(algorithm::generate_boards, groups[i], boardArray, dictionary, permutations, letters);
         }
 
-        std::vector<std::vector<std::vector<QString>>> all_results;
+        algorithm::customSet all_results;
         for (unsigned long i = 0; i < asyncs.size(); i++) {
-            std::vector<std::vector<std::vector<QString>>> results = asyncs[i].get();
+            algorithm::customSet results = asyncs[i].get();
             std::cout << "group " << i << " finished" << std::endl;
 
             for (std::vector<std::vector<QString>> result : results) {
-                all_results.push_back(result);
+                all_results.insert(result);
             }
         }
 

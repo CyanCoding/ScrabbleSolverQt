@@ -15,7 +15,7 @@ namespace algorithm {
     bool valid_word(std::vector<std::vector<QString>> board, std::vector<std::unordered_set<QString>> dictionary);
 
     // Generates valid board positions
-    std::vector<std::vector<std::vector<QString>>> generate_boards(std::vector<MainWindow::xy> positions,
+    std::unordered_set<std::vector<std::vector<QString>>> generate_boards(std::vector<MainWindow::xy> positions,
                                            std::vector<std::vector<QString>> boardArray,
                                            std::vector<std::unordered_set<QString>> dictionary,
                                            std::vector<std::vector<QString>> permutations,

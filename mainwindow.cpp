@@ -1,14 +1,15 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "board.h"          // fill_board_array()
-#include "anagram.h"        // anagram::read_permutations()
-#include "algorithm.h"       // algorithm::generate_boards()
-#include "thread_distributor.h" //
+#include "board.h"              // fill_board_array()
+#include "anagram.h"            // anagram::read_permutations()
+#include "thread_distributor.h" // td::distribute()
+#include "algorithm.h"          // algorithm::customSet
 
-#include <future>           // std::async
-#include <QFile>            // QFile
-#include <QTextStream>      // QTextStream
-#include <iostream>         // std::cout
+
+#include <future>               // std::async
+#include <QFile>                // QFile
+#include <QTextStream>          // QTextStream
+#include <iostream>             // std::cout
 
 
 // Reads :/dictionaries into a vector
@@ -95,7 +96,7 @@ void MainWindow::on_nextButton_clicked() {
         return;
     }
     board_number += 1;
-    display_board(ui, all_boards[board_number]);
+    //display_board(ui, all_boards[board_number]);
 }
 
 void MainWindow::on_previousButton_clicked() {
@@ -105,7 +106,7 @@ void MainWindow::on_previousButton_clicked() {
     }
 
     board_number--;
-    display_board(ui, all_boards[board_number]);
+    //display_board(ui, all_boards[board_number]);
 }
 
 /*
@@ -239,10 +240,13 @@ void MainWindow::on_prune_clicked() {
 //        all_boards.pop_back();
 //    }
 
-    for (int i = 0; i < 20; i++) {
-        bool valid = algorithm::valid_word(all_boards[i], dictionary);
+    customSet::iterator it;
+
+    for (std::vector<std::vector<QString>> board : all_boards) {
+        bool valid = algorithm::valid_word(board, dictionary);
         if (!valid) {
-            all_boards.pop_back();
+            it = all_boards.find(board);
+            all_boards.erase(it);
         }
     }
 

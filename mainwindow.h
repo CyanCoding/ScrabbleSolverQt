@@ -2,9 +2,16 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <vector>       // std::vector
-#include <future>       // std::future
-#include <unordered_set>    // std::unordered_set
+#include <vector>               // std::vector
+#include <future>               // std::future
+#include <unordered_set>        // std::unordered_set
+
+template <>
+struct std::hash<std::vector<std::vector<QString>>> {
+    size_t operator()(const vector<vector<QString>>& v) const {
+        // same thing
+    }
+};
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -31,10 +38,11 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    using customSet = std::unordered_set<std::vector<std::vector<QString>>>;
 
     std::future<std::vector<std::unordered_set<QString>>> dict_async;   // Async for reading dictionary words
     std::vector<std::unordered_set<QString>> dictionary;                // The vector that dict_async reads into
-    std::vector<std::vector<std::vector<QString>>> all_boards;          // Every board we've found
+    customSet all_boards;                                    // Every board we've found
     unsigned long board_number;                                         // The number of allBoards to access
 };
 #endif // MAINWINDOW_H
