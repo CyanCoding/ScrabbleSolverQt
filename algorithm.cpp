@@ -117,7 +117,55 @@ namespace algorithm {
         return all_positions;
     }
 
-    bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary) {
+    bool compare_with_dictionaries(std::vector<std::unordered_set<QString>> dictionary, QString word) {
+        std::unordered_set<QString>::const_iterator list;
+        word = word.toLower();
+
+        int dictionaryToUse;
+        switch(word.length()) {
+            case 3:
+                list = dictionary[0].find(word);
+                dictionaryToUse = 0;
+                break;
+            case 4:
+                list = dictionary[1].find(word);
+                dictionaryToUse = 1;
+                break;
+            case 5:
+                list = dictionary[2].find(word);
+                dictionaryToUse = 2;
+                break;
+            case 6:
+                list = dictionary[3].find(word);
+                dictionaryToUse = 3;
+                break;
+            case 7:
+                list = dictionary[4].find(word);
+                dictionaryToUse = 4;
+                break;
+            case 8:
+                list = dictionary[5].find(word);
+                dictionaryToUse = 5;
+                break;
+            case 9:
+                list = dictionary[6].find(word);
+                dictionaryToUse = 6;
+                break;
+            default: // 10+
+                list = dictionary[7].find(word);
+                dictionaryToUse = 7;
+                break;
+        }
+
+        if (list == dictionary[dictionaryToUse].end()) {
+            // The word is not in the dictionary
+            return false;
+        }
+        return true;
+    }
+
+
+    bool valid_word(std::vector<std::vector<QString>> board, std::vector<std::unordered_set<QString>> dictionary) {
         std::vector<QString> words;
         for (unsigned long i = 0; i < 15; i++) {
             for (unsigned long j = 0; j < 15; j++) {
@@ -163,6 +211,15 @@ namespace algorithm {
                         }
                     }
 
+                    if (horizontalWord.length() > 1) {
+                        if (!compare_with_dictionaries(dictionary, horizontalWord)) {
+                            return false;
+                        }
+                    }
+
+                    // VERTICAL WORD
+
+
                     // Reset X so we can use it in calculating verticalWord
                     currentX = static_cast<int>(j);
                     currentY = static_cast<int>(i);
@@ -198,34 +255,15 @@ namespace algorithm {
                         }
                     }
 
-                    // Do something with finished words
-                    if (horizontalWord.length() == 1 && verticalWord.length() == 1) {
-                        continue;
-                    }
-
-                    if (horizontalWord.length() != 1) {
-                        words.push_back(horizontalWord);
-                    }
-
-                    if (verticalWord.length() != 1) {
-                        words.push_back(verticalWord);
+                    if (verticalWord.length() > 1) {
+                        if (!compare_with_dictionaries(dictionary, verticalWord)) {
+                            return false;
+                        }
                     }
                 }
             }
         }
-        // TODO: Create a cache of unavailable words or some other way
-        // to keep from having to iterate over the dictionary every time
-        for (QString word : words) {
-            std::unordered_set<QString>::const_iterator got = dictionary.find(word);
-            if (got == dictionary.end()) {
-                // The word is not in the dictionary
-                return false;
-            }
-//            if (!(std::find(dictionary.begin(), dictionary.end(), word.toLower()) != dictionary.end())) {
-//                // The word is not the dictionary
-//                return false;
-//            }
-        }
+
         return true;
     }
 
@@ -234,7 +272,7 @@ namespace algorithm {
     std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::unordered_set<QString> dictionary,
+            std::vector<std::unordered_set<QString>> dictionary,
             std::vector<std::vector<QString>> permutations,
             int letters) {
 
@@ -257,11 +295,8 @@ namespace algorithm {
 
                 // For each valid permutation of that length, fill into positions
                 for (QString s : length_permutations) {
-//                    std::unordered_set<QString>::const_iterator got = dictionary.find(s);
-//                    if (got == dictionary.end()) {
-//                        // The word is not in the dictionary
-//                        continue;
-//                    }
+                    s = s.toLower();
+
                     //std::cout << s.toStdString() << std::endl;
                     // Generate a new baord
                     std::vector<std::vector<QString>> newBoard(15, std::vector<QString>(15));
@@ -269,9 +304,6 @@ namespace algorithm {
                     // Then copy from the old board to the new board
                     for (int k = 0; k < 15; k++) {
                         for (int l = 0; l < 15; l++) {
-                            // I have a hypothesis that if we simply copied every value
-                            // over, it would change boardArray whenever we loaded
-                            // new letters
                             if (boardArray[k][l] != "") {
                                 newBoard[k][l] = boardArray[k][l];
                             }
@@ -283,11 +315,7 @@ namespace algorithm {
                         MainWindow::xy p = pos[k];
                         newBoard[p.y][p.x] = s[static_cast<int>(k)].toUpper(); // s is a (s)ingle permutation
                     }
-                    //boards.push_back(newBoard);
-                    if (valid_word(newBoard, dictionary)) {
-                        // Add the new board to the list
-                        boards.push_back(newBoard);
-                    }
+                    boards.push_back(newBoard);
                 }
             }
         }
