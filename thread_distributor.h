@@ -7,11 +7,10 @@
 
 namespace td {
     // Splits our work into as many of 100 async threads as we need
-    std::unordered_set<std::vector<std::vector<QString>>> distribute(
+    std::vector<std::vector<std::vector<QString>>> distribute(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::vector<std::unordered_set<QString>> dictionary,
-            std::vector<std::vector<QString>> permutations,
+            std::vector<std::unordered_set<QString>> permutations,
             int letters);
 }
 
