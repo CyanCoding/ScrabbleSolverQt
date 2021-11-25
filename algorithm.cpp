@@ -286,7 +286,7 @@ namespace algorithm {
     std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::vector<std::unordered_set<QString>> permutations,
+            std::unordered_set<QString> permutations,
             int letters) {
 
         std::vector<std::vector<std::vector<QString>>> boards;
@@ -305,10 +305,8 @@ namespace algorithm {
                 // pos is a specific position out of found_pos
                 std::vector<MainWindow::xy> pos = found_pos[j];
 
-                std::unordered_set<QString> length_permutations = permutations[pos.size()];
-
                 // For each valid permutation of that length, fill into positions
-                for (QString s : length_permutations) {
+                for (QString s : permutations) {
                     s = s.toLower();
 
                     // Generate a new baord

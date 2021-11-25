@@ -151,7 +151,7 @@ void MainWindow::on_pushButton_clicked() {
     }
 
     // Start the async to find anagrams from letters
-    std::future<std::vector<std::unordered_set<QString>>> permutation_async = std::async(
+    std::future<std::unordered_set<QString>> permutation_async = std::async(
                 anagram::read_permutations, dictionary, letters);
 
     std::vector<std::vector<bool>> positions = positions_async.get();
@@ -169,7 +169,7 @@ void MainWindow::on_pushButton_clicked() {
     }
 
     // The meat of our program! This finds new boards based on free positions
-    std::vector<std::unordered_set<QString>> permutations = permutation_async.get();
+    std::unordered_set<QString> permutations = permutation_async.get();
 
     all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
 

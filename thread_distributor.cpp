@@ -14,7 +14,7 @@ namespace td {
     std::vector<std::vector<std::vector<QString>>> distribute(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::vector<std::unordered_set<QString>> permutations,
+            std::unordered_set<QString> permutations,
             int letters) {
 
         std::vector<std::vector<MainWindow::xy>> groups(100);

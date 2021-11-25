@@ -21,7 +21,7 @@ namespace algorithm {
     std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::vector<std::unordered_set<QString>> permutations,
+            std::unordered_set<QString> permutations,
             int letters);
 
     inline std::unordered_set<QString> valid_words;    // Words we know are in the dictionary so we don't have to search again
