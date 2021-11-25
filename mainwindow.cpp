@@ -11,7 +11,6 @@
 #include <QTextStream>          // QTextStream
 #include <iostream>             // std::cout
 
-
 // Reads :/dictionaries into a vector
 std::vector<std::unordered_set<QString>> read_dictionary() {
     std::vector<std::unordered_set<QString>> full_dictionary;
@@ -92,11 +91,12 @@ void display_board(
 
 void MainWindow::on_nextButton_clicked() {
     if (board_number >= all_boards.size() - 1) {
-        std::cout << "We've reached the height limit!" << std::endl;
+        std::cout << "We've reached the height limit!" <<
+                     board_number << " / " << all_boards.size() << std::endl;
         return;
     }
     board_number += 1;
-    //display_board(ui, all_boards[board_number]);
+    display_board(ui, all_boards[board_number]);
 }
 
 void MainWindow::on_previousButton_clicked() {
@@ -106,7 +106,7 @@ void MainWindow::on_previousButton_clicked() {
     }
 
     board_number--;
-    //display_board(ui, all_boards[board_number]);
+    display_board(ui, all_boards[board_number]);
 }
 
 /*
