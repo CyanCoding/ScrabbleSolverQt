@@ -109,6 +109,10 @@ void MainWindow::on_previousButton_clicked() {
     display_board(ui, all_boards[board_number]);
 }
 
+void MainWindow::on_pushButton_2_clicked() {
+    std::cout << "test" << std::endl;
+}
+
 /*
  * When the solve button is pressed
  *

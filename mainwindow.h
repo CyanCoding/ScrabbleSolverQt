@@ -26,8 +26,9 @@ private slots:
     void on_actionClear_board_triggered();
     void on_previousButton_clicked();
     void on_nextButton_clicked();
-
     void on_prune_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;
