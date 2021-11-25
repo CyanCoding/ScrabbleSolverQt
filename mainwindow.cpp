@@ -144,16 +144,17 @@ void MainWindow::on_pushButton_clicked() {
 
     std::cout << "Creating permutations..." << std::endl;
     QString letters = ui->letterBox->toPlainText();
+
+    // dict_async only runs once, so we only need to update the dictionary once
+    if (dictionary.size() == 0) {
+        dictionary = dict_async.get();
+    }
+
     // Start the async to find anagrams from letters
-    std::future<std::vector<std::vector<QString>>> permutation_async = std::async(anagram::read_permutations, letters);
+    std::future<std::vector<std::unordered_set<QString>>> permutation_async = std::async(
+                anagram::read_permutations, dictionary, letters);
 
     std::vector<std::vector<bool>> positions = positions_async.get();
-
-    // We split the positions into four groups
-//    std::vector<xy> group1;
-//    std::vector<xy> group2;
-//    std::vector<xy> group3;
-//    std::vector<xy> group4;
 
     std::vector<xy> allPoints;
     for (int i = 0; i < 15; i++) {
@@ -167,62 +168,10 @@ void MainWindow::on_pushButton_clicked() {
         }
     }
 
-//    for (unsigned long i = 0; i < allPoints.size(); i++) {
-//        if (i < allPoints.size() / 3) {
-//            group1.push_back(allPoints[i]);
-//        }
-//        else if (i < allPoints.size() / 2) {
-//            group2.push_back(allPoints[i]);
-//        }
-//        else if (i < allPoints.size() / 2 * 1.5) {
-//            group3.push_back(allPoints[i]);
-//        }
-//        else {
-//            group4.push_back(allPoints[i]);
-//        }
-//    }
+    // The meat of our program! This finds new boards based on free positions
+    std::vector<std::unordered_set<QString>> permutations = permutation_async.get();
 
-    // dict_async only runs once, so we only need to update the dictionary once
-    if (dictionary.size() == 0) {
-        dictionary = dict_async.get();
-    }
-
-//    // The meat of our program! This finds new boards based on free positions
-    std::vector<std::vector<QString>> permutations = permutation_async.get();
-
-//    std::cout << "Starting first group (" << group1.size() << ")..." << std::endl;
-//    std::future<std::vector<std::vector<std::vector<QString>>>> group1_async = std::async(
-//                algorithm::generate_boards, group1, boardArray, dictionary, permutations, letterLength);
-//    std::future<std::vector<std::vector<std::vector<QString>>>> group2_async = std::async(
-//                algorithm::generate_boards, group2, boardArray, dictionary, permutations, letterLength);
-//    std::future<std::vector<std::vector<std::vector<QString>>>> group3_async = std::async(
-//                algorithm::generate_boards, group3, boardArray, dictionary, permutations, letterLength);
-//    std::future<std::vector<std::vector<std::vector<QString>>>> group4_async = std::async(
-//                algorithm::generate_boards, group4, boardArray, dictionary, permutations, letterLength);
-
-//    std::vector<std::vector<std::vector<QString>>> group1_boards = group1_async.get();
-//    std::cout << "Finished the first group" << std::endl;
-//    std::vector<std::vector<std::vector<QString>>> group2_boards = group2_async.get();
-//    std::cout << "Finished the second group" << std::endl;
-//    std::vector<std::vector<std::vector<QString>>> group3_boards = group3_async.get();
-//    std::cout << "Finished the third group" << std::endl;
-//    std::vector<std::vector<std::vector<QString>>> group4_boards = group4_async.get();
-//    std::cout << "Finished the fourth group" << std::endl;
-
-//    for (std::vector<std::vector<QString>> board : group1_boards) {
-//        all_boards.push_back(board);
-//    }
-//    for (std::vector<std::vector<QString>> board : group2_boards) {
-//        all_boards.push_back(board);
-//    }
-//    for (std::vector<std::vector<QString>> board : group3_boards) {
-//        all_boards.push_back(board);
-//    }
-//    for (std::vector<std::vector<QString>> board : group4_boards) {
-//        all_boards.push_back(board);
-//    }
-
-    all_boards = td::distribute(allPoints, boardArray, dictionary, permutations, letterLength);
+    all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
 
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;
@@ -235,18 +184,10 @@ void MainWindow::on_prune_clicked() {
         std::cout << "The dictionary is 0!" << std::endl;
     }
 
-//    bool valid = algorithm::valid_word(all_boards[all_boards.size() - 1], dictionary);
-//    if (!valid) {
-//        all_boards.pop_back();
-//    }
-
-    customSet::iterator it;
-
-    for (std::vector<std::vector<QString>> board : all_boards) {
-        bool valid = algorithm::valid_word(board, dictionary);
+    for (int i = all_boards.size() - 1; i >= 0; i--) {
+        bool valid = algorithm::valid_word(all_boards[i], dictionary);
         if (!valid) {
-            it = all_boards.find(board);
-            all_boards.erase(it);
+            all_boards.pop_back();
         }
     }
 
