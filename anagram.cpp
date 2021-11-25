@@ -26,18 +26,21 @@ namespace anagram {
 
         do {
             QString temp = "";
-            for (auto e : l)
+            for (auto e : l) {
                 if (e != -1) {
                     temp += letters[e];
                 }
                 else break;
+            }
 
             if (algorithm::compare_with_dictionaries(dictionary, temp)) {
-                // valid word
                 permutations.insert(temp);
             }
 
+
         } while(std::next_permutation(l.begin(), l.end()));
+
+        std::cout << permutations.size() << std::endl;
 
         return permutations;
     }
