@@ -1,14 +1,17 @@
 #ifndef ANAGRAM_H
 #define ANAGRAM_H
 
-#include <vector>       // std::vector
-#include <string>       // std::string
-#include <QString>      // QString
+#include <unordered_set>    // std::unordered_set
+#include <vector>           // std::vector
+#include <string>           // std::string
+#include <QString>          // QString
 
 namespace anagram {
     // Finds every permutation (anagram non-duplicates) of the letters
-    // including lengths lower than it
-    std::vector<std::vector<QString>> read_permutations(QString letters);
+    // including lengths lower than it. ONLY RETURNS REAL WORDS
+    std::vector<std::unordered_set<QString>> read_permutations(
+            std::vector<std::unordered_set<QString>> dictionary,
+            QString letters);
 }
 
 #endif // ANAGRAM_H
