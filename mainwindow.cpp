@@ -141,7 +141,6 @@ void MainWindow::on_pushButton_clicked() {
     if (letterLength == 0) {
         std::cout << "Letter box length must be at least 1!" << std::endl;
         return;
-        void on_previousButton_clicked();
     }
 
     std::cout << "Assembling board..." << std::endl;
