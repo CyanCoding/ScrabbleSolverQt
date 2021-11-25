@@ -35,7 +35,8 @@ private:
 
     std::future<std::vector<std::unordered_set<QString>>> dict_async;   // Async for reading dictionary words
     std::vector<std::unordered_set<QString>> dictionary;                // The vector that dict_async reads into
-    unsigned long board_number = 0;                                         // The number of allBoards to access
+    unsigned long board_number = 0;                                     // The number of allBoards to access
     std::vector<std::vector<std::vector<QString>>> all_boards;          // Every board we've found
+    std::unordered_set<QString> permutations;                           // Permutations of user's letters
 };
 #endif // MAINWINDOW_H

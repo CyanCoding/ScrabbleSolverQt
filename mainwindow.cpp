@@ -110,7 +110,13 @@ void MainWindow::on_previousButton_clicked() {
 }
 
 void MainWindow::on_pushButton_2_clicked() {
-    std::cout << "test" << std::endl;
+    // dict_async only runs once, so we only need to update the dictionary once
+    if (dictionary.size() == 0) {
+        dictionary = dict_async.get();
+    }
+
+    QString letters = ui->letterBox->toPlainText();
+    permutations = anagram::read_permutations(dictionary, letters);
 }
 
 /*
@@ -121,9 +127,9 @@ void MainWindow::on_pushButton_2_clicked() {
  * [x] Find anagrams of the letters in their hand
  * [x] Initialize or use a pre-made dictionary for comparing words
  * [x] Get positions that letters can be played in
- * - [ ] For each position, find letter positions that can be played there
- * - [ ] Compile those positions into a list
- * - [ ] Check to see which of those form valid words
+ * - [x] For each position, find letter positions that can be played there
+ * - [x] Compile those positions into a list
+ * - [x] Check to see which of those form valid words
  * - [ ] Calculate how many points each is worth
  * - [ ] Resort by the amount of points
  *
@@ -154,9 +160,11 @@ void MainWindow::on_pushButton_clicked() {
         dictionary = dict_async.get();
     }
 
-    // Start the async to find anagrams from letters
-    std::future<std::unordered_set<QString>> permutation_async = std::async(
-                anagram::read_permutations, dictionary, letters);
+    // If the user hasn't already pressed the permutate button
+    if (permutations.size() == 0) {
+        // Start the async to find anagrams from letters
+        permutations = anagram::read_permutations(dictionary, letters);
+    }
 
     std::vector<std::vector<bool>> positions = positions_async.get();
 
@@ -172,10 +180,7 @@ void MainWindow::on_pushButton_clicked() {
         }
     }
 
-    // The meat of our program! This finds new boards based on free positions
-    std::unordered_set<QString> permutations = permutation_async.get();
-
-    all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
+    //all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
 
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;
