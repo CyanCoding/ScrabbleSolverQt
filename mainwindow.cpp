@@ -116,7 +116,7 @@ void MainWindow::on_pushButton_2_clicked() {
     }
 
     QString letters = ui->letterBox->toPlainText();
-    permutations = anagram::read_permutations(dictionary, letters);
+    permutations_async = std::async(anagram::read_permutations, dictionary, letters);
 }
 
 /*
@@ -152,7 +152,7 @@ void MainWindow::on_pushButton_clicked() {
     std::future<std::vector<std::vector<bool>>> positions_async
             = std::async(board::find_positions, boardArray);
 
-    std::cout << "Creating permutations..." << std::endl;
+
     QString letters = ui->letterBox->toPlainText();
 
     // dict_async only runs once, so we only need to update the dictionary once
@@ -161,10 +161,8 @@ void MainWindow::on_pushButton_clicked() {
     }
 
     // If the user hasn't already pressed the permutate button
-    if (permutations.size() == 0) {
-        // Start the async to find anagrams from letters
-        permutations = anagram::read_permutations(dictionary, letters);
-    }
+    permutations = permutations_async.get();
+    ui->label->setText("Done creating permutations!");
 
     std::vector<std::vector<bool>> positions = positions_async.get();
 
