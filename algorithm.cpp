@@ -283,14 +283,13 @@ namespace algorithm {
 
 
     // Generates valid board positions
-    std::unordered_set<std::vector<std::vector<QString>>> generate_boards(
+    std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
-            std::vector<std::unordered_set<QString>> dictionary,
-            std::vector<std::vector<QString>> permutations,
+            std::vector<std::unordered_set<QString>> permutations,
             int letters) {
 
-        std::customSet boards;
+        std::vector<std::vector<std::vector<QString>>> boards;
 
 
         // Operate on every position
@@ -306,11 +305,12 @@ namespace algorithm {
                 // pos is a specific position out of found_pos
                 std::vector<MainWindow::xy> pos = found_pos[j];
 
-                std::vector<QString> length_permutations = permutations[pos.size()];
+                std::unordered_set<QString> length_permutations = permutations[pos.size()];
 
                 // For each valid permutation of that length, fill into positions
                 for (QString s : length_permutations) {
                     s = s.toLower();
+
                     // Generate a new baord
                     std::vector<std::vector<QString>> newBoard(15, std::vector<QString>(15));
 
@@ -328,7 +328,7 @@ namespace algorithm {
                         MainWindow::xy p = pos[k];
                         newBoard[p.y][p.x] = s[static_cast<int>(k)].toUpper(); // s is a (s)ingle permutation
                     }
-                    boards.insert(newBoard);
+                    boards.push_back(newBoard);
                 }
             }
         }

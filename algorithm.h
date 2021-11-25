@@ -14,12 +14,15 @@ namespace algorithm {
     // Checks to see if the board only contains valid words
     bool valid_word(std::vector<std::vector<QString>> board, std::vector<std::unordered_set<QString>> dictionary);
 
+    // Checks a single word to see if it's valid
+    bool compare_with_dictionaries(std::vector<std::unordered_set<QString>> dictionary, QString word);
+
     // Generates valid board positions
-    std::unordered_set<std::vector<std::vector<QString>>> generate_boards(std::vector<MainWindow::xy> positions,
-                                           std::vector<std::vector<QString>> boardArray,
-                                           std::vector<std::unordered_set<QString>> dictionary,
-                                           std::vector<std::vector<QString>> permutations,
-                                           int letters);
+    std::vector<std::vector<std::vector<QString>>> generate_boards(
+            std::vector<MainWindow::xy> positions,
+            std::vector<std::vector<QString>> boardArray,
+            std::vector<std::unordered_set<QString>> permutations,
+            int letters);
 
     inline std::unordered_set<QString> valid_words;    // Words we know are in the dictionary so we don't have to search again
     inline std::unordered_set<QString> invalid_words;  // Words that aren't in the dictionary so we don't have to search again
