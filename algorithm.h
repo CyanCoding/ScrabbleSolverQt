@@ -21,8 +21,10 @@ namespace algorithm {
                                            std::vector<std::vector<QString>> permutations,
                                            int letters);
 
-    // There's lots of duplicates so we create an unordered set to easily check
-    inline std::unordered_set<QString> invalid_words;
+    inline std::unordered_set<QString> valid_words;    // Words we know are in the dictionary so we don't have to search again
+    inline std::unordered_set<QString> invalid_words;  // Words that aren't in the dictionary so we don't have to search again
+
+
 }
 
 #endif // ALGORITHM_H

@@ -121,6 +121,18 @@ namespace algorithm {
         std::unordered_set<QString>::const_iterator list;
         word = word.toLower();
 
+        list = invalid_words.find(word);
+        if (list != invalid_words.end()) {
+            // It's in the invalid list
+            return false;
+        }
+
+        list = valid_words.find(word);
+        if (list != valid_words.end()) {
+            // It's in the valid list
+            return true;
+        }
+
         int dictionaryToUse;
         switch(word.length()) {
             case 3:
@@ -159,8 +171,10 @@ namespace algorithm {
 
         if (list == dictionary[dictionaryToUse].end()) {
             // The word is not in the dictionary
+            invalid_words.insert(word);
             return false;
         }
+        valid_words.insert(word);
         return true;
     }
 
