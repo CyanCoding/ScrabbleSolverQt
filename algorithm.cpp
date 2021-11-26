@@ -120,7 +120,6 @@ namespace algorithm {
     bool compare_with_dictionaries(std::unordered_set<QString> dictionary, QString word) {
         std::unordered_set<QString>::const_iterator list;
         word = word.toLower();
-        std::cout << word.toStdString() << std::endl;
 
         list = invalid_words.find(word);
         if (list != invalid_words.end()) {
@@ -294,6 +293,8 @@ namespace algorithm {
                         MainWindow::xy p = pos[k];
                         newBoard[p.y][p.x] = s[static_cast<int>(k)].toUpper(); // s is a (s)ingle permutation
                     }
+
+                    // Check to make sure it's a valid word
                     boards.push_back(newBoard);
                 }
             }
