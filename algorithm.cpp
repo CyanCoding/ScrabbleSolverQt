@@ -274,8 +274,6 @@ namespace algorithm {
 
                 // For each valid permutation of that length, fill into positions
                 for (QString s : permutations) {
-                    s = s.toLower();
-
                     // Generate a new baord
                     std::vector<std::vector<QString>> newBoard(15, std::vector<QString>(15));
 
