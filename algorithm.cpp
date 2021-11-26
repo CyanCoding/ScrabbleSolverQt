@@ -271,9 +271,13 @@ namespace algorithm {
             for (unsigned long j = 0; j < found_pos.size() - 1; j++) {
                 // pos is a specific position out of found_pos
                 std::vector<MainWindow::xy> pos = found_pos[j];
-
+                std::cout << "successful so far!!" << std::endl;
                 // For each valid permutation of that length, fill into positions
                 for (QString s : permutations) {
+                    if (s.length() > pos.size()) {
+                        continue;
+                    }
+
                     // Generate a new baord
                     std::vector<std::vector<QString>> newBoard(15, std::vector<QString>(15));
 
