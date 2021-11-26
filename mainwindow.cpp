@@ -164,7 +164,7 @@ void MainWindow::on_pushButton_clicked() {
         }
     }
 
-    all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
+    all_boards = td::distribute(allPoints, boardArray, dictionary, permutations, letterLength);
 
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;

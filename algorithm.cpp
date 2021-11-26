@@ -146,101 +146,37 @@ namespace algorithm {
 
 
     bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary) {
-        std::vector<QString> words;
-        for (unsigned long i = 0; i < 15; i++) {
-            for (unsigned long j = 0; j < 15; j++) {
+        std::unordered_set<QString> words;
+
+        for (int i = 0; i < 15; i++) {
+            for (int j = 0; j < 15; j++) {
                 if (board[i][j] != "") {
-                    // We found a letter, so we assemble nearby letters and see if it's a word
-                    // Remember i = y, j = x
-                    QString horizontalWord = "";
-                    QString verticalWord = "";
-
-                    // We have to go from left to right since that's how
-                    // words are spelled
-                    int currentX = static_cast<int>(j);
-                    int currentY = static_cast<int>(i);
-                    if (currentX > 0 && board[currentY][currentX - 1] != "") {
-                        currentX = j - 1;
+                    QString temp;
+                    while (board[i][j] != "") {
+                        temp += board[i][j];
+                        j++;
                     }
 
-
-                    // Navigate all the way to the left
-                    if (currentX < 0) {
-                        currentX = 0;
-                    }
-                    while (board[currentY][currentX] != "") {
-                        currentX--;
-
-                        if (currentX < 0) {
-                            // We've reached the left side of the board
-                            currentX = 0;
-                            break;
-                        }
-                    }
-                    // We just moved to a blank spot so move back
-                    currentX++;
-
-                    // Go from left to right and fill in horizontalWord
-                    while (board[currentY][currentX] != "") {
-                        horizontalWord += board[currentY][currentX];
-                        currentX++;
-
-                        if (currentX > 14) {
-                            // We've reached the right side of the board
-                            break;
+                    if (temp.length() == 1) {
+                        temp = "";
+                        // It must be a vertical word!
+                        j--;
+                        while (board[i][j] != "") {
+                            temp += board[i][j];
+                            i++;
                         }
                     }
 
-                    if (horizontalWord.length() > 1) {
-                        if (!compare_with_dictionaries(dictionary, horizontalWord)) {
-                            return false;
-                        }
-                    }
-
-                    // VERTICAL WORD
-
-
-                    // Reset X so we can use it in calculating verticalWord
-                    currentX = static_cast<int>(j);
-                    currentY = static_cast<int>(i);
-                    if (currentY > 0 && board[currentY - 1][currentX] != "") {
-                        currentY = static_cast<int>(i) - 1;
-                    }
-
-                    // Navigate all the way to the top
-                    if (currentY < 0) {
-                        currentY = 0;
-                    }
-                    while (board[currentY][currentX] != "") {
-                        currentY--;
-
-                        if (currentY < 0) {
-                            // We've reached the top of the board
-                            currentY = 0;
-                            break;
-                        }
-                    }
-
-                    // We just moved from a blank spot so move up
-                    currentY++;
-
-                    // Go from top to bottom and fill verticalWord
-                    while (board[currentY][currentX] != "") {
-                        verticalWord += board[currentY][currentX];
-                        currentY++;
-
-                        if (currentY > 14) {
-                            // We've reached the bottom of the board
-                            break;
-                        }
-                    }
-
-                    if (verticalWord.length() > 1) {
-                        if (!compare_with_dictionaries(dictionary, verticalWord)) {
-                            return false;
-                        }
-                    }
+                    words.insert(temp);
                 }
+            }
+        }
+
+        for (QString word : words) {
+            // TODO: This algorithm doesn't work if you had two words down or a T shape
+            // TODO: This also doesn't work since uture can be added to f and that's not a word
+            if (!compare_with_dictionaries(dictionary, word.toLower())) {
+                return false;
             }
         }
 
@@ -252,6 +188,7 @@ namespace algorithm {
     std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
+            std::unordered_set<QString> dictionary,
             std::unordered_set<QString> permutations,
             int letters) {
 
@@ -295,7 +232,9 @@ namespace algorithm {
                     }
 
                     // Check to make sure it's a valid word
-                    boards.push_back(newBoard);
+                    if (valid_word(newBoard, dictionary)) {
+                        boards.push_back(newBoard);
+                    }
                 }
             }
         }

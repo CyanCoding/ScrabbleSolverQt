@@ -21,6 +21,7 @@ namespace algorithm {
     std::vector<std::vector<std::vector<QString>>> generate_boards(
             std::vector<MainWindow::xy> positions,
             std::vector<std::vector<QString>> boardArray,
+            std::unordered_set<QString> dictionary,
             std::unordered_set<QString> permutations,
             int letters);
 
