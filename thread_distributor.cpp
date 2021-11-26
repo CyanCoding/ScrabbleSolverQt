@@ -19,7 +19,7 @@ namespace td {
 
         std::vector<std::vector<MainWindow::xy>> groups(100);
         const double original_size = positions.size();
-        std::cout << original_size << " !!" << std::endl;
+        std::cout << original_size << " positions!!" << std::endl;
 
         unsigned long groupNumber = 0;
         while (positions.size() > 0) {
