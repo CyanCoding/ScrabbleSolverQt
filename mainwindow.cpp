@@ -12,38 +12,25 @@
 #include <iostream>             // std::cout
 
 // Reads :/dictionaries into a vector
-std::vector<std::unordered_set<QString>> read_dictionary() {
-    std::vector<std::unordered_set<QString>> full_dictionary;
+std::unordered_set<QString> read_dictionary() {
+    std::unordered_set<QString> full_dictionary;
 
     // Initialize the dictionary into dictionary_words
-    QString dictionary_paths[8] = {
-        ":/dictionaries/3.txt",
-        ":/dictionaries/4.txt",
-        ":/dictionaries/5.txt",
-        ":/dictionaries/6.txt",
-        ":/dictionaries/7.txt",
-        ":/dictionaries/8.txt",
-        ":/dictionaries/9.txt",
-        ":/dictionaries/10up.txt"
-    };
+    QString path = ":/dictionary.txt";
 
-    for (int i = 0; i < 8; i++) {
-        std::unordered_set<QString> dictionary_words;
+    std::unordered_set<QString> dictionary_words;
 
-        QFile file(dictionary_paths[i]);
-        if (!file.open(QIODevice::ReadOnly)) {
-            std::cout << "ERROR: Dictionary " << i << " did not open properly!" << std::endl;
-            continue;
-        }
-
-        QTextStream instream(&file);
-        while (!instream.atEnd()) {
-            dictionary_words.insert(instream.readLine());
-        }
-        full_dictionary.push_back(dictionary_words);
+    QFile file(path);
+    if (!file.open(QIODevice::ReadOnly)) {
+        std::cout << "ERROR: Dictionary did not open properly!" << std::endl;
     }
 
-    return full_dictionary;
+    QTextStream instream(&file);
+    while (!instream.atEnd()) {
+        dictionary_words.insert(instream.readLine());
+    }
+
+    return dictionary_words;
 }
 
 // Runs when the window is opened
@@ -177,7 +164,7 @@ void MainWindow::on_pushButton_clicked() {
         }
     }
 
-    //all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
+    all_boards = td::distribute(allPoints, boardArray, permutations, letterLength);
 
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;

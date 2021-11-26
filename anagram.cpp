@@ -10,38 +10,45 @@ namespace anagram {
     // Finds every permutation (anagram non-duplicates) of the letters
     // including lengths lower than it
     std::unordered_set<QString> read_permutations(
-            std::vector<std::unordered_set<QString>> dictionary,
+            std::unordered_set<QString> dictionary,
             QString letters) {
 
-        std::unordered_set<QString> permutations;
+        // Send letters to a word map
+        std::map wordMap = std::map<QChar, int>{};
 
-        // This bit of magic creates every permutation from length 1
-        // to letters.length()
-        std::vector<int> l;
-
-        l.push_back(-1);
-        for (long long i = 0; i < letters.length(); i++) {
-            l.push_back(i);
+        for (QChar c : letters) {
+            wordMap[c]++;
         }
 
-        do {
-            QString temp = "";
-            for (auto e : l) {
-                if (e != -1) {
-                    temp += letters[e];
+        std::unordered_set<QString> validWords;
+
+        for (QString dict : dictionary) {
+            if (dict == "") {
+                continue;
+            }
+
+            // Send word to test to word map
+            std::map word2Map = std::map<QChar, int>{};
+            for (QChar c : dict) {
+                word2Map[c]++;
+            }
+
+            // Check if word to test is made up of word map
+            bool valid = true;
+            for (std::pair<QChar, int> p : word2Map) {
+                if (p.second > wordMap[p.first]) {
+                    valid = false;
+                    break;
                 }
-                else break;
             }
 
-            if (algorithm::compare_with_dictionaries(dictionary, temp)) {
-                permutations.insert(temp);
+            if (valid) {
+                validWords.insert(dict);
             }
+        }
 
-
-        } while(std::next_permutation(l.begin(), l.end()));
-
-        std::cout << permutations.size() << std::endl;
-
-        return permutations;
+        std::cout << "Finished creating permutations ("
+                  << validWords.size() << ")" << std::endl;
+        return validWords;
     }
 }

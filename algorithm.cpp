@@ -117,9 +117,10 @@ namespace algorithm {
         return all_positions;
     }
 
-    bool compare_with_dictionaries(std::vector<std::unordered_set<QString>> dictionary, QString word) {
+    bool compare_with_dictionaries(std::unordered_set<QString> dictionary, QString word) {
         std::unordered_set<QString>::const_iterator list;
         word = word.toLower();
+        std::cout << word.toStdString() << std::endl;
 
         list = invalid_words.find(word);
         if (list != invalid_words.end()) {
@@ -133,43 +134,9 @@ namespace algorithm {
             return true;
         }
 
-        int dictionaryToUse;
-        switch(word.length()) {
-            case 3:
-                list = dictionary[0].find(word);
-                dictionaryToUse = 0;
-                break;
-            case 4:
-                list = dictionary[1].find(word);
-                dictionaryToUse = 1;
-                break;
-            case 5:
-                list = dictionary[2].find(word);
-                dictionaryToUse = 2;
-                break;
-            case 6:
-                list = dictionary[3].find(word);
-                dictionaryToUse = 3;
-                break;
-            case 7:
-                list = dictionary[4].find(word);
-                dictionaryToUse = 4;
-                break;
-            case 8:
-                list = dictionary[5].find(word);
-                dictionaryToUse = 5;
-                break;
-            case 9:
-                list = dictionary[6].find(word);
-                dictionaryToUse = 6;
-                break;
-            default: // 10+
-                list = dictionary[7].find(word);
-                dictionaryToUse = 7;
-                break;
-        }
+        list = dictionary.find(word);
 
-        if (list == dictionary[dictionaryToUse].end()) {
+        if (list == dictionary.end()) {
             // The word is not in the dictionary
             invalid_words.insert(word);
             return false;
@@ -179,7 +146,7 @@ namespace algorithm {
     }
 
 
-    bool valid_word(std::vector<std::vector<QString>> board, std::vector<std::unordered_set<QString>> dictionary) {
+    bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary) {
         std::vector<QString> words;
         for (unsigned long i = 0; i < 15; i++) {
             for (unsigned long j = 0; j < 15; j++) {

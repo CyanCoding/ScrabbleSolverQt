@@ -33,8 +33,8 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
-    std::future<std::vector<std::unordered_set<QString>>> dict_async;   // Async for reading dictionary words
-    std::vector<std::unordered_set<QString>> dictionary;                // The vector that dict_async reads into
+    std::future<std::unordered_set<QString>> dict_async;                // Async for reading dictionary words
+    std::unordered_set<QString> dictionary;                             // The vector that dict_async reads into
     unsigned long board_number = 0;                                     // The number of allBoards to access
     std::vector<std::vector<std::vector<QString>>> all_boards;          // Every board we've found
 

@@ -12,10 +12,10 @@ namespace algorithm {
             std::vector<std::vector<QString>> boardArray, MainWindow::xy pos, int maxLength);
 
     // Checks to see if the board only contains valid words
-    bool valid_word(std::vector<std::vector<QString>> board, std::vector<std::unordered_set<QString>> dictionary);
+    bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary);
 
     // Checks a single word to see if it's valid
-    bool compare_with_dictionaries(std::vector<std::unordered_set<QString>> dictionary, QString word);
+    bool compare_with_dictionaries(std::unordered_set<QString> dictionary, QString word);
 
     // Generates valid board positions
     std::vector<std::vector<std::vector<QString>>> generate_boards(
