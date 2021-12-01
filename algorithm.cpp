@@ -238,9 +238,7 @@ namespace algorithm {
                     }
 
                     // Check to make sure it's a valid word
-                    if (valid_word(newBoard, dictionary)) {
-                        boards.push_back(newBoard);
-                    }
+                    boards.push_back(newBoard);
                 }
             }
         }

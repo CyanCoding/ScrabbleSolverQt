@@ -82,7 +82,7 @@ void MainWindow::on_nextButton_clicked() {
                      board_number << " / " << all_boards.size() << std::endl;
         return;
     }
-    board_number += 1;
+    board_number++;
     display_board(ui, all_boards[board_number]);
 }
 
@@ -122,6 +122,8 @@ void MainWindow::on_pushButton_2_clicked() {
  *
  */
 void MainWindow::on_pushButton_clicked() {
+    clock_t start = clock();
+
     all_boards.clear();
 
     int letterLength = ui->letterBox->toPlainText().length();
@@ -166,6 +168,7 @@ void MainWindow::on_pushButton_clicked() {
 
     all_boards = td::distribute(allPoints, boardArray, dictionary, permutations, letterLength);
 
+    ui->label->setText("R: " + QString::number((float)(clock() - start) / CLOCKS_PER_SEC));
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;
     ui->label->setText("Options: " + QString::number(all_boards.size()));
@@ -177,13 +180,10 @@ void MainWindow::on_prune_clicked() {
         std::cout << "The dictionary is 0!" << std::endl;
     }
 
-    for (int i = all_boards.size() - 1; i >= 0; i--) {
-        bool valid = algorithm::valid_word(all_boards[i], dictionary);
-        if (!valid) {
-            all_boards.pop_back();
-        }
-    }
+    bool valid = algorithm::valid_word(all_boards[board_number], dictionary);
 
-    ui->label->setText("Options: " + QString::number(all_boards.size()));
+    if (valid)  ui->label->setText("Valid word!");
+    else        ui->label->setText("Invalid word!");
+    on_nextButton_clicked();
 }
 
