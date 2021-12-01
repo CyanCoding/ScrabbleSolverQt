@@ -7,48 +7,43 @@
 #include <set>          // std::set
 
 namespace anagram {
+    // This uses a recursive brute-force technique to find all permutations
+    void inline crack(unsigned int length, char letters[], int word_length, QString current,
+                      std::unordered_set<QString>* permutations, bool* stop) {
+        if (length == 0 && *stop == false) {
+
+            permutations->insert(current);
+
+            return;
+        }
+        if (*stop == false) {
+            for (int i = 0; i < word_length; i++) {
+                crack(length - 1, letters, word_length, current + letters[i], permutations, stop);
+            }
+        }
+    }
+
     // Finds every permutation (anagram non-duplicates) of the letters
     // including lengths lower than it
-    std::unordered_set<QString> read_permutations(
-            std::unordered_set<QString> dictionary,
-            QString letters) {
+    std::unordered_set<QString> read_permutations(QString letters) {
+        QByteArray ba = letters.toLocal8Bit();
+        char *charArray = ba.data();
 
-        // Send letters to a word map
-        std::map wordMap = std::map<QChar, int>{};
+        std::unordered_set<QString> permutations;
 
-        for (QChar c : letters) {
-            wordMap[c]++;
-        }
+        bool stop = false;
+        unsigned int length = 1;
+        while (stop == false) {
+            crack(length, charArray, letters.length(), "", &permutations, &stop);
+            length++;
 
-        std::unordered_set<QString> validWords;
-
-        for (QString dict : dictionary) {
-            if (dict == "") {
-                continue;
-            }
-
-            // Send word to test to word map
-            std::map word2Map = std::map<QChar, int>{};
-            for (QChar c : dict) {
-                word2Map[c]++;
-            }
-
-            // Check if word to test is made up of word map
-            bool valid = true;
-            for (std::pair<QChar, int> p : word2Map) {
-                if (p.second > wordMap[p.first]) {
-                    valid = false;
-                    break;
-                }
-            }
-
-            if (valid) {
-                validWords.insert(dict);
+            if (length == letters.length() + 1) {
+                stop = true;
             }
         }
 
-        std::cout << "Finished creating permutations ("
-                  << validWords.size() << ")" << std::endl;
-        return validWords;
+        std::cout << "Found " << permutations.size() << " permutations!" << std::endl;
+
+        return permutations;
     }
 }

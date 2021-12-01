@@ -103,7 +103,7 @@ void MainWindow::on_pushButton_2_clicked() {
     }
 
     QString letters = ui->letterBox->toPlainText();
-    permutations_async = std::async(anagram::read_permutations, dictionary, letters);
+    permutations_async = std::async(anagram::read_permutations, letters);
 }
 
 /*
