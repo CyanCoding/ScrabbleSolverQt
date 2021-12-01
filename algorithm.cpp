@@ -174,7 +174,6 @@ namespace algorithm {
 
         for (QString word : words) {
             // TODO: This algorithm doesn't work if you had two words down or a T shape
-            // TODO: This also doesn't work since uture can be added to f and that's not a word
             if (!compare_with_dictionaries(dictionary, word.toLower())) {
                 return false;
             }
