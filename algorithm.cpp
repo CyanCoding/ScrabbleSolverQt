@@ -179,8 +179,6 @@ namespace algorithm {
         }
 
         for (QString word : words) {
-            std::cout << word.toStdString() << std::endl;
-            // TODO: This algorithm doesn't work if you had two words down or a T shape
             if (!compare_with_dictionaries(dictionary, word.toLower())) {
                 return false;
             }
@@ -238,7 +236,7 @@ namespace algorithm {
                     }
 
                     // Check to make sure it's a valid word
-                    boards.push_back(newBoard);
+                    if (valid_word(newBoard, dictionary)) boards.push_back(newBoard);
                 }
             }
         }

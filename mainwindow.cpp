@@ -171,7 +171,6 @@ void MainWindow::on_pushButton_clicked() {
     ui->label->setText("R: " + QString::number((float)(clock() - start) / CLOCKS_PER_SEC));
     std::cout << "DONE! ";
     std::cout << all_boards.size() << std::endl;
-    ui->label->setText("Options: " + QString::number(all_boards.size()));
 }
 
 
