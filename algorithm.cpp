@@ -148,31 +148,38 @@ namespace algorithm {
     bool valid_word(std::vector<std::vector<QString>> board, std::unordered_set<QString> dictionary) {
         std::unordered_set<QString> words;
 
-        for (int i = 0; i < 15; i++) {
-            for (int j = 0; j < 15; j++) {
-                if (board[i][j] != "") {
-                    QString temp;
-                    while (board[i][j] != "") {
-                        temp += board[i][j];
-                        j++;
-                    }
+        // Run once for horizontal, once for vertical
 
-                    if (temp.length() == 1) {
-                        temp = "";
-                        // It must be a vertical word!
-                        j--;
+        for (int x = 0; x < 2; x++) {
+            for (int i = 0; i < 15; i++) {
+                for (int j = 0; j < 15; j++) {
+                    if (board[i][j] != "") {
+                        QString temp;
+
+                        // Horizontal words
                         while (board[i][j] != "") {
                             temp += board[i][j];
-                            i++;
-                        }
-                    }
 
-                    words.insert(temp);
+                            // During horizontal movement, we increase j since
+                            // that is our x dimension. The opposite is true
+                            // during vertical movement.
+                            if (x == 1) j++;
+                            else        i++;
+                        }
+
+                        // Our dictionary only consists of 3+ letter words
+                        // so we don't want to iterate over 1 or 2 length words
+                        if (temp.length() >= 3) {
+                            words.insert (temp);
+                        }
+
+                    }
                 }
             }
         }
 
         for (QString word : words) {
+            std::cout << word.toStdString() << std::endl;
             // TODO: This algorithm doesn't work if you had two words down or a T shape
             if (!compare_with_dictionaries(dictionary, word.toLower())) {
                 return false;
